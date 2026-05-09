@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1f2937">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="FRLG相性">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>ポケモンFRLGスイッチ版相性チェッカー</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>ポケモンFRLG<wbr>スイッチ版<wbr>相性チェッカー</h1>
+  </header>
+  <main>
+    <p class="credit">
+      developed by <span class="name">Shingo</span> just for <span class="name">Yori</span> <span class="heart" aria-hidden="true">♡</span>
+      <span class="date">May 2026</span>
+    </p>
+    <div class="search">
+      <input id="q" type="search" inputmode="text" enterkeyhint="search"
+             autocomplete="off" autocapitalize="off" autocorrect="off"
+             spellcheck="false"
+             placeholder="ぴかちゅう / ピカチュウ">
+      <button id="clear" class="clear-btn" type="button" aria-label="クリア" hidden>×</button>
+      <ul id="suggestions" class="suggestions" hidden></ul>
+    </div>
+
+    <p id="loading" class="status">データを読み込んでいます…</p>
+    <p id="hint" class="status" hidden>ポケモン名を入力してください<br>(候補は4件以下に絞ると表示されます)</p>
+    <p id="nomatch" class="status" hidden>該当するポケモンがありません</p>
+
+    <section id="result" class="result" hidden>
+      <header class="result-head">
+        <div class="name-line">
+          <span id="poke-id" class="poke-id"></span>
+          <h2 id="poke-name"></h2>
+        </div>
+        <div id="poke-types" class="badges" aria-label="タイプ"></div>
+        <div class="abilities-row">
+          <span class="abilities-label">特性</span>
+          <div id="poke-abilities" class="abilities"></div>
+        </div>
+      </header>
+
+      <section id="sec-super" class="matchup-section super" hidden>
+        <h3>こうかばつぐん</h3>
+        <ul id="list-super" class="matchup-list"></ul>
+      </section>
+      <section id="sec-resist" class="matchup-section resist" hidden>
+        <h3>こうかいまひとつ</h3>
+        <ul id="list-resist" class="matchup-list"></ul>
+      </section>
+      <section id="sec-immune" class="matchup-section immune" hidden>
+        <h3>こうかなし</h3>
+        <ul id="list-immune" class="matchup-list"></ul>
+      </section>
+    </section>
+  </main>
+
+  <div id="ability-popup" class="ability-popup" hidden role="dialog" aria-modal="false"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

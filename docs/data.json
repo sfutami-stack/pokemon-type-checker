@@ -1,0 +1,3542 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-09T06:51:28Z",
+  "types": {
+    "normal": {
+      "it": "NORMALE",
+      "color": "#A8A77A",
+      "text": "white"
+    },
+    "fighting": {
+      "it": "LOTTA",
+      "color": "#C22E28",
+      "text": "white"
+    },
+    "flying": {
+      "it": "VOLANTE",
+      "color": "#A98FF3",
+      "text": "white"
+    },
+    "poison": {
+      "it": "VELENO",
+      "color": "#A33EA1",
+      "text": "white"
+    },
+    "ground": {
+      "it": "TERRA",
+      "color": "#E2BF65",
+      "text": "white"
+    },
+    "rock": {
+      "it": "ROCCIA",
+      "color": "#B6A136",
+      "text": "white"
+    },
+    "bug": {
+      "it": "COLEOTTERO",
+      "color": "#A6B91A",
+      "text": "white"
+    },
+    "ghost": {
+      "it": "SPETTRO",
+      "color": "#735797",
+      "text": "white"
+    },
+    "steel": {
+      "it": "ACCIAIO",
+      "color": "#B7B7CE",
+      "text": "white"
+    },
+    "fire": {
+      "it": "FUOCO",
+      "color": "#EE8130",
+      "text": "white"
+    },
+    "water": {
+      "it": "ACQUA",
+      "color": "#6390F0",
+      "text": "white"
+    },
+    "grass": {
+      "it": "ERBA",
+      "color": "#7AC74C",
+      "text": "white"
+    },
+    "electric": {
+      "it": "ELETTRO",
+      "color": "#F7D02C",
+      "text": "black"
+    },
+    "psychic": {
+      "it": "PSICO",
+      "color": "#F95587",
+      "text": "white"
+    },
+    "ice": {
+      "it": "GHIACCIO",
+      "color": "#96D9D6",
+      "text": "white"
+    },
+    "dragon": {
+      "it": "DRAGO",
+      "color": "#6F35FC",
+      "text": "white"
+    },
+    "dark": {
+      "it": "BUIO",
+      "color": "#705746",
+      "text": "white"
+    }
+  },
+  "type_chart": {
+    "normal": {
+      "normal": 1,
+      "fighting": 1,
+      "flying": 1,
+      "poison": 1,
+      "ground": 1,
+      "rock": 0.5,
+      "bug": 1,
+      "ghost": 0,
+      "steel": 0.5,
+      "fire": 1,
+      "water": 1,
+      "grass": 1,
+      "electric": 1,
+      "psychic": 1,
+      "ice": 1,
+      "dragon": 1,
+      "dark": 1
+    },
+    "fighting": {
+      "normal": 2,
+      "fighting": 1,
+      "flying": 0.5,
+      "poison": 0.5,
+      "ground": 1,
+      "rock": 2,
+      "bug": 0.5,
+      "ghost": 0,
+      "steel": 2,
+      "fire": 1,
+      "water": 1,
+      "grass": 1,
+      "electric": 1,
+      "psychic": 0.5,
+      "ice": 2,
+      "dragon": 1,
+      "dark": 2
+    },
+    "flying": {
+      "normal": 1,
+      "fighting": 2,
+      "flying": 1,
+      "poison": 1,
+      "ground": 1,
+      "rock": 0.5,
+      "bug": 2,
+      "ghost": 1,
+      "steel": 0.5,
+      "fire": 1,
+      "water": 1,
+      "grass": 2,
+      "electric": 0.5,
+      "psychic": 1,
+      "ice": 1,
+      "dragon": 1,
+      "dark": 1
+    },
+    "poison": {
+      "normal": 1,
+      "fighting": 1,
+      "flying": 1,
+      "poison": 0.5,
+      "ground": 0.5,
+      "rock": 0.5,
+      "bug": 1,
+      "ghost": 0.5,
+      "steel": 0,
+      "fire": 1,
+      "water": 1,
+      "grass": 2,
+      "electric": 1,
+      "psychic": 1,
+      "ice": 1,
+      "dragon": 1,
+      "dark": 1
+    },
+    "ground": {
+      "normal": 1,
+      "fighting": 1,
+      "flying": 0,
+      "poison": 2,
+      "ground": 1,
+      "rock": 2,
+      "bug": 0.5,
+      "ghost": 1,
+      "steel": 2,
+      "fire": 2,
+      "water": 1,
+      "grass": 0.5,
+      "electric": 2,
+      "psychic": 1,
+      "ice": 1,
+      "dragon": 1,
+      "dark": 1
+    },
+    "rock": {
+      "normal": 1,
+      "fighting": 0.5,
+      "flying": 2,
+      "poison": 1,
+      "ground": 0.5,
+      "rock": 1,
+      "bug": 2,
+      "ghost": 1,
+      "steel": 0.5,
+      "fire": 2,
+      "water": 1,
+      "grass": 1,
+      "electric": 1,
+      "psychic": 1,
+      "ice": 2,
+      "dragon": 1,
+      "dark": 1
+    },
+    "bug": {
+      "normal": 1,
+      "fighting": 0.5,
+      "flying": 0.5,
+      "poison": 0.5,
+      "ground": 1,
+      "rock": 1,
+      "bug": 1,
+      "ghost": 0.5,
+      "steel": 0.5,
+      "fire": 0.5,
+      "water": 1,
+      "grass": 2,
+      "electric": 1,
+      "psychic": 2,
+      "ice": 1,
+      "dragon": 1,
+      "dark": 2
+    },
+    "ghost": {
+      "normal": 0,
+      "fighting": 1,
+      "flying": 1,
+      "poison": 1,
+      "ground": 1,
+      "rock": 1,
+      "bug": 1,
+      "ghost": 2,
+      "steel": 0.5,
+      "fire": 1,
+      "water": 1,
+      "grass": 1,
+      "electric": 1,
+      "psychic": 2,
+      "ice": 1,
+      "dragon": 1,
+      "dark": 0.5
+    },
+    "steel": {
+      "normal": 1,
+      "fighting": 1,
+      "flying": 1,
+      "poison": 1,
+      "ground": 1,
+      "rock": 2,
+      "bug": 1,
+      "ghost": 1,
+      "steel": 0.5,
+      "fire": 0.5,
+      "water": 0.5,
+      "grass": 1,
+      "electric": 0.5,
+      "psychic": 1,
+      "ice": 2,
+      "dragon": 1,
+      "dark": 1
+    },
+    "fire": {
+      "normal": 1,
+      "fighting": 1,
+      "flying": 1,
+      "poison": 1,
+      "ground": 1,
+      "rock": 0.5,
+      "bug": 2,
+      "ghost": 1,
+      "steel": 2,
+      "fire": 0.5,
+      "water": 0.5,
+      "grass": 2,
+      "electric": 1,
+      "psychic": 1,
+      "ice": 2,
+      "dragon": 0.5,
+      "dark": 1
+    },
+    "water": {
+      "normal": 1,
+      "fighting": 1,
+      "flying": 1,
+      "poison": 1,
+      "ground": 2,
+      "rock": 2,
+      "bug": 1,
+      "ghost": 1,
+      "steel": 1,
+      "fire": 2,
+      "water": 0.5,
+      "grass": 0.5,
+      "electric": 1,
+      "psychic": 1,
+      "ice": 1,
+      "dragon": 0.5,
+      "dark": 1
+    },
+    "grass": {
+      "normal": 1,
+      "fighting": 1,
+      "flying": 0.5,
+      "poison": 0.5,
+      "ground": 2,
+      "rock": 2,
+      "bug": 0.5,
+      "ghost": 1,
+      "steel": 0.5,
+      "fire": 0.5,
+      "water": 2,
+      "grass": 0.5,
+      "electric": 1,
+      "psychic": 1,
+      "ice": 1,
+      "dragon": 0.5,
+      "dark": 1
+    },
+    "electric": {
+      "normal": 1,
+      "fighting": 1,
+      "flying": 2,
+      "poison": 1,
+      "ground": 0,
+      "rock": 1,
+      "bug": 1,
+      "ghost": 1,
+      "steel": 1,
+      "fire": 1,
+      "water": 2,
+      "grass": 0.5,
+      "electric": 0.5,
+      "psychic": 1,
+      "ice": 1,
+      "dragon": 0.5,
+      "dark": 1
+    },
+    "psychic": {
+      "normal": 1,
+      "fighting": 2,
+      "flying": 1,
+      "poison": 2,
+      "ground": 1,
+      "rock": 1,
+      "bug": 1,
+      "ghost": 1,
+      "steel": 0.5,
+      "fire": 1,
+      "water": 1,
+      "grass": 1,
+      "electric": 1,
+      "psychic": 0.5,
+      "ice": 1,
+      "dragon": 1,
+      "dark": 0
+    },
+    "ice": {
+      "normal": 1,
+      "fighting": 1,
+      "flying": 2,
+      "poison": 1,
+      "ground": 2,
+      "rock": 1,
+      "bug": 1,
+      "ghost": 1,
+      "steel": 0.5,
+      "fire": 0.5,
+      "water": 0.5,
+      "grass": 2,
+      "electric": 1,
+      "psychic": 1,
+      "ice": 0.5,
+      "dragon": 2,
+      "dark": 1
+    },
+    "dragon": {
+      "normal": 1,
+      "fighting": 1,
+      "flying": 1,
+      "poison": 1,
+      "ground": 1,
+      "rock": 1,
+      "bug": 1,
+      "ghost": 1,
+      "steel": 0.5,
+      "fire": 1,
+      "water": 1,
+      "grass": 1,
+      "electric": 1,
+      "psychic": 1,
+      "ice": 1,
+      "dragon": 2,
+      "dark": 1
+    },
+    "dark": {
+      "normal": 1,
+      "fighting": 0.5,
+      "flying": 1,
+      "poison": 1,
+      "ground": 1,
+      "rock": 1,
+      "bug": 1,
+      "ghost": 2,
+      "steel": 0.5,
+      "fire": 1,
+      "water": 1,
+      "grass": 1,
+      "electric": 1,
+      "psychic": 2,
+      "ice": 1,
+      "dragon": 1,
+      "dark": 0.5
+    }
+  },
+  "pokemon": [
+    {
+      "id": 1,
+      "name_ja": "フシギダネ",
+      "name_hira": "ふしぎだね",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        "overgrow"
+      ]
+    },
+    {
+      "id": 2,
+      "name_ja": "フシギソウ",
+      "name_hira": "ふしぎそう",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        "overgrow"
+      ]
+    },
+    {
+      "id": 3,
+      "name_ja": "フシギバナ",
+      "name_hira": "ふしぎばな",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        "overgrow"
+      ]
+    },
+    {
+      "id": 4,
+      "name_ja": "ヒトカゲ",
+      "name_hira": "ひとかげ",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "blaze"
+      ]
+    },
+    {
+      "id": 5,
+      "name_ja": "リザード",
+      "name_hira": "りざーど",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "blaze"
+      ]
+    },
+    {
+      "id": 6,
+      "name_ja": "リザードン",
+      "name_hira": "りざーどん",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "abilities": [
+        "blaze"
+      ]
+    },
+    {
+      "id": 7,
+      "name_ja": "ゼニガメ",
+      "name_hira": "ぜにがめ",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "torrent"
+      ]
+    },
+    {
+      "id": 8,
+      "name_ja": "カメール",
+      "name_hira": "かめーる",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "torrent"
+      ]
+    },
+    {
+      "id": 9,
+      "name_ja": "カメックス",
+      "name_hira": "かめっくす",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "torrent"
+      ]
+    },
+    {
+      "id": 10,
+      "name_ja": "キャタピー",
+      "name_hira": "きゃたぴー",
+      "types": [
+        "bug"
+      ],
+      "abilities": [
+        "shield-dust"
+      ]
+    },
+    {
+      "id": 11,
+      "name_ja": "トランセル",
+      "name_hira": "とらんせる",
+      "types": [
+        "bug"
+      ],
+      "abilities": [
+        "shed-skin"
+      ]
+    },
+    {
+      "id": 12,
+      "name_ja": "バタフリー",
+      "name_hira": "ばたふりー",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "abilities": [
+        "compound-eyes"
+      ]
+    },
+    {
+      "id": 13,
+      "name_ja": "ビードル",
+      "name_hira": "びーどる",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "abilities": [
+        "shield-dust"
+      ]
+    },
+    {
+      "id": 14,
+      "name_ja": "コクーン",
+      "name_hira": "こくーん",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "abilities": [
+        "shed-skin"
+      ]
+    },
+    {
+      "id": 15,
+      "name_ja": "スピアー",
+      "name_hira": "すぴあー",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "abilities": [
+        "swarm"
+      ]
+    },
+    {
+      "id": 16,
+      "name_ja": "ポッポ",
+      "name_hira": "ぽっぽ",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 17,
+      "name_ja": "ピジョン",
+      "name_hira": "ぴじょん",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 18,
+      "name_ja": "ピジョット",
+      "name_hira": "ぴじょっと",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 19,
+      "name_ja": "コラッタ",
+      "name_hira": "こらった",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "run-away",
+        "guts"
+      ]
+    },
+    {
+      "id": 20,
+      "name_ja": "ラッタ",
+      "name_hira": "らった",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "run-away",
+        "guts"
+      ]
+    },
+    {
+      "id": 21,
+      "name_ja": "オニスズメ",
+      "name_hira": "おにすずめ",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 22,
+      "name_ja": "オニドリル",
+      "name_hira": "おにどりる",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 23,
+      "name_ja": "アーボ",
+      "name_hira": "あーぼ",
+      "types": [
+        "poison"
+      ],
+      "abilities": [
+        "intimidate",
+        "shed-skin"
+      ]
+    },
+    {
+      "id": 24,
+      "name_ja": "アーボック",
+      "name_hira": "あーぼっく",
+      "types": [
+        "poison"
+      ],
+      "abilities": [
+        "intimidate",
+        "shed-skin"
+      ]
+    },
+    {
+      "id": 25,
+      "name_ja": "ピカチュウ",
+      "name_hira": "ぴかちゅう",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "static"
+      ]
+    },
+    {
+      "id": 26,
+      "name_ja": "ライチュウ",
+      "name_hira": "らいちゅう",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "static"
+      ]
+    },
+    {
+      "id": 27,
+      "name_ja": "サンド",
+      "name_hira": "さんど",
+      "types": [
+        "ground"
+      ],
+      "abilities": [
+        "sand-veil"
+      ]
+    },
+    {
+      "id": 28,
+      "name_ja": "サンドパン",
+      "name_hira": "さんどぱん",
+      "types": [
+        "ground"
+      ],
+      "abilities": [
+        "sand-veil"
+      ]
+    },
+    {
+      "id": 29,
+      "name_ja": "ニドラン♀",
+      "name_hira": "にどらん♀",
+      "types": [
+        "poison"
+      ],
+      "abilities": [
+        "poison-point"
+      ]
+    },
+    {
+      "id": 30,
+      "name_ja": "ニドリーナ",
+      "name_hira": "にどりーな",
+      "types": [
+        "poison"
+      ],
+      "abilities": [
+        "poison-point"
+      ]
+    },
+    {
+      "id": 31,
+      "name_ja": "ニドクイン",
+      "name_hira": "にどくいん",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "abilities": [
+        "poison-point"
+      ]
+    },
+    {
+      "id": 32,
+      "name_ja": "ニドラン♂",
+      "name_hira": "にどらん♂",
+      "types": [
+        "poison"
+      ],
+      "abilities": [
+        "poison-point"
+      ]
+    },
+    {
+      "id": 33,
+      "name_ja": "ニドリーノ",
+      "name_hira": "にどりーの",
+      "types": [
+        "poison"
+      ],
+      "abilities": [
+        "poison-point"
+      ]
+    },
+    {
+      "id": 34,
+      "name_ja": "ニドキング",
+      "name_hira": "にどきんぐ",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "abilities": [
+        "poison-point"
+      ]
+    },
+    {
+      "id": 35,
+      "name_ja": "ピッピ",
+      "name_hira": "ぴっぴ",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "cute-charm"
+      ]
+    },
+    {
+      "id": 36,
+      "name_ja": "ピクシー",
+      "name_hira": "ぴくしー",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "cute-charm"
+      ]
+    },
+    {
+      "id": 37,
+      "name_ja": "ロコン",
+      "name_hira": "ろこん",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "flash-fire"
+      ]
+    },
+    {
+      "id": 38,
+      "name_ja": "キュウコン",
+      "name_hira": "きゅうこん",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "flash-fire"
+      ]
+    },
+    {
+      "id": 39,
+      "name_ja": "プリン",
+      "name_hira": "ぷりん",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "cute-charm"
+      ]
+    },
+    {
+      "id": 40,
+      "name_ja": "プクリン",
+      "name_hira": "ぷくりん",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "cute-charm"
+      ]
+    },
+    {
+      "id": 41,
+      "name_ja": "ズバット",
+      "name_hira": "ずばっと",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "abilities": [
+        "inner-focus"
+      ]
+    },
+    {
+      "id": 42,
+      "name_ja": "ゴルバット",
+      "name_hira": "ごるばっと",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "abilities": [
+        "inner-focus"
+      ]
+    },
+    {
+      "id": 43,
+      "name_ja": "ナゾノクサ",
+      "name_hira": "なぞのくさ",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 44,
+      "name_ja": "クサイハナ",
+      "name_hira": "くさいはな",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 45,
+      "name_ja": "ラフレシア",
+      "name_hira": "らふれしあ",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 46,
+      "name_ja": "パラス",
+      "name_hira": "ぱらす",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "abilities": [
+        "effect-spore"
+      ]
+    },
+    {
+      "id": 47,
+      "name_ja": "パラセクト",
+      "name_hira": "ぱらせくと",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "abilities": [
+        "effect-spore"
+      ]
+    },
+    {
+      "id": 48,
+      "name_ja": "コンパン",
+      "name_hira": "こんぱん",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "abilities": [
+        "compound-eyes"
+      ]
+    },
+    {
+      "id": 49,
+      "name_ja": "モルフォン",
+      "name_hira": "もるふぉん",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "abilities": [
+        "shield-dust"
+      ]
+    },
+    {
+      "id": 50,
+      "name_ja": "ディグダ",
+      "name_hira": "でぃぐだ",
+      "types": [
+        "ground"
+      ],
+      "abilities": [
+        "sand-veil",
+        "arena-trap"
+      ]
+    },
+    {
+      "id": 51,
+      "name_ja": "ダグトリオ",
+      "name_hira": "だぐとりお",
+      "types": [
+        "ground"
+      ],
+      "abilities": [
+        "sand-veil",
+        "arena-trap"
+      ]
+    },
+    {
+      "id": 52,
+      "name_ja": "ニャース",
+      "name_hira": "にゃーす",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "pickup"
+      ]
+    },
+    {
+      "id": 53,
+      "name_ja": "ペルシアン",
+      "name_hira": "ぺるしあん",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "limber"
+      ]
+    },
+    {
+      "id": 54,
+      "name_ja": "コダック",
+      "name_hira": "こだっく",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "damp",
+        "cloud-nine"
+      ]
+    },
+    {
+      "id": 55,
+      "name_ja": "ゴルダック",
+      "name_hira": "ごるだっく",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "damp",
+        "cloud-nine"
+      ]
+    },
+    {
+      "id": 56,
+      "name_ja": "マンキー",
+      "name_hira": "まんきー",
+      "types": [
+        "fighting"
+      ],
+      "abilities": [
+        "vital-spirit"
+      ]
+    },
+    {
+      "id": 57,
+      "name_ja": "オコリザル",
+      "name_hira": "おこりざる",
+      "types": [
+        "fighting"
+      ],
+      "abilities": [
+        "vital-spirit"
+      ]
+    },
+    {
+      "id": 58,
+      "name_ja": "ガーディ",
+      "name_hira": "がーでぃ",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "intimidate",
+        "flash-fire"
+      ]
+    },
+    {
+      "id": 59,
+      "name_ja": "ウインディ",
+      "name_hira": "ういんでぃ",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "intimidate",
+        "flash-fire"
+      ]
+    },
+    {
+      "id": 60,
+      "name_ja": "ニョロモ",
+      "name_hira": "にょろも",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "water-absorb",
+        "damp"
+      ]
+    },
+    {
+      "id": 61,
+      "name_ja": "ニョロゾ",
+      "name_hira": "にょろぞ",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "water-absorb",
+        "damp"
+      ]
+    },
+    {
+      "id": 62,
+      "name_ja": "ニョロボン",
+      "name_hira": "にょろぼん",
+      "types": [
+        "water",
+        "fighting"
+      ],
+      "abilities": [
+        "water-absorb",
+        "damp"
+      ]
+    },
+    {
+      "id": 63,
+      "name_ja": "ケーシィ",
+      "name_hira": "けーしぃ",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "synchronize",
+        "inner-focus"
+      ]
+    },
+    {
+      "id": 64,
+      "name_ja": "ユンゲラー",
+      "name_hira": "ゆんげらー",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "synchronize",
+        "inner-focus"
+      ]
+    },
+    {
+      "id": 65,
+      "name_ja": "フーディン",
+      "name_hira": "ふーでぃん",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "synchronize",
+        "inner-focus"
+      ]
+    },
+    {
+      "id": 66,
+      "name_ja": "ワンリキー",
+      "name_hira": "わんりきー",
+      "types": [
+        "fighting"
+      ],
+      "abilities": [
+        "guts"
+      ]
+    },
+    {
+      "id": 67,
+      "name_ja": "ゴーリキー",
+      "name_hira": "ごーりきー",
+      "types": [
+        "fighting"
+      ],
+      "abilities": [
+        "guts"
+      ]
+    },
+    {
+      "id": 68,
+      "name_ja": "カイリキー",
+      "name_hira": "かいりきー",
+      "types": [
+        "fighting"
+      ],
+      "abilities": [
+        "guts"
+      ]
+    },
+    {
+      "id": 69,
+      "name_ja": "マダツボミ",
+      "name_hira": "まだつぼみ",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 70,
+      "name_ja": "ウツドン",
+      "name_hira": "うつどん",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 71,
+      "name_ja": "ウツボット",
+      "name_hira": "うつぼっと",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 72,
+      "name_ja": "メノクラゲ",
+      "name_hira": "めのくらげ",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "abilities": [
+        "clear-body",
+        "liquid-ooze"
+      ]
+    },
+    {
+      "id": 73,
+      "name_ja": "ドククラゲ",
+      "name_hira": "どくくらげ",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "abilities": [
+        "clear-body",
+        "liquid-ooze"
+      ]
+    },
+    {
+      "id": 74,
+      "name_ja": "イシツブテ",
+      "name_hira": "いしつぶて",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "abilities": [
+        "rock-head",
+        "sturdy"
+      ]
+    },
+    {
+      "id": 75,
+      "name_ja": "ゴローン",
+      "name_hira": "ごろーん",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "abilities": [
+        "rock-head",
+        "sturdy"
+      ]
+    },
+    {
+      "id": 76,
+      "name_ja": "ゴローニャ",
+      "name_hira": "ごろーにゃ",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "abilities": [
+        "rock-head",
+        "sturdy"
+      ]
+    },
+    {
+      "id": 77,
+      "name_ja": "ポニータ",
+      "name_hira": "ぽにーた",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "run-away",
+        "flash-fire"
+      ]
+    },
+    {
+      "id": 78,
+      "name_ja": "ギャロップ",
+      "name_hira": "ぎゃろっぷ",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "run-away",
+        "flash-fire"
+      ]
+    },
+    {
+      "id": 79,
+      "name_ja": "ヤドン",
+      "name_hira": "やどん",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "abilities": [
+        "oblivious",
+        "own-tempo"
+      ]
+    },
+    {
+      "id": 80,
+      "name_ja": "ヤドラン",
+      "name_hira": "やどらん",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "abilities": [
+        "oblivious",
+        "own-tempo"
+      ]
+    },
+    {
+      "id": 81,
+      "name_ja": "コイル",
+      "name_hira": "こいる",
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "abilities": [
+        "magnet-pull",
+        "sturdy"
+      ]
+    },
+    {
+      "id": 82,
+      "name_ja": "レアコイル",
+      "name_hira": "れあこいる",
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "abilities": [
+        "magnet-pull",
+        "sturdy"
+      ]
+    },
+    {
+      "id": 83,
+      "name_ja": "カモネギ",
+      "name_hira": "かもねぎ",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "keen-eye",
+        "inner-focus"
+      ]
+    },
+    {
+      "id": 84,
+      "name_ja": "ドードー",
+      "name_hira": "どーどー",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "run-away",
+        "early-bird"
+      ]
+    },
+    {
+      "id": 85,
+      "name_ja": "ドードリオ",
+      "name_hira": "どーどりお",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "run-away",
+        "early-bird"
+      ]
+    },
+    {
+      "id": 86,
+      "name_ja": "パウワウ",
+      "name_hira": "ぱうわう",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "thick-fat"
+      ]
+    },
+    {
+      "id": 87,
+      "name_ja": "ジュゴン",
+      "name_hira": "じゅごん",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "abilities": [
+        "thick-fat"
+      ]
+    },
+    {
+      "id": 88,
+      "name_ja": "ベトベター",
+      "name_hira": "べとべたー",
+      "types": [
+        "poison"
+      ],
+      "abilities": [
+        "stench",
+        "sticky-hold"
+      ]
+    },
+    {
+      "id": 89,
+      "name_ja": "ベトベトン",
+      "name_hira": "べとべとん",
+      "types": [
+        "poison"
+      ],
+      "abilities": [
+        "stench",
+        "sticky-hold"
+      ]
+    },
+    {
+      "id": 90,
+      "name_ja": "シェルダー",
+      "name_hira": "しぇるだー",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "shell-armor"
+      ]
+    },
+    {
+      "id": 91,
+      "name_ja": "パルシェン",
+      "name_hira": "ぱるしぇん",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "abilities": [
+        "shell-armor"
+      ]
+    },
+    {
+      "id": 92,
+      "name_ja": "ゴース",
+      "name_hira": "ごーす",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "abilities": [
+        "levitate"
+      ]
+    },
+    {
+      "id": 93,
+      "name_ja": "ゴースト",
+      "name_hira": "ごーすと",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "abilities": [
+        "levitate"
+      ]
+    },
+    {
+      "id": 94,
+      "name_ja": "ゲンガー",
+      "name_hira": "げんがー",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "abilities": [
+        "levitate"
+      ]
+    },
+    {
+      "id": 95,
+      "name_ja": "イワーク",
+      "name_hira": "いわーく",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "abilities": [
+        "rock-head",
+        "sturdy"
+      ]
+    },
+    {
+      "id": 96,
+      "name_ja": "スリープ",
+      "name_hira": "すりーぷ",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "insomnia"
+      ]
+    },
+    {
+      "id": 97,
+      "name_ja": "スリーパー",
+      "name_hira": "すりーぱー",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "insomnia"
+      ]
+    },
+    {
+      "id": 98,
+      "name_ja": "クラブ",
+      "name_hira": "くらぶ",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "hyper-cutter",
+        "shell-armor"
+      ]
+    },
+    {
+      "id": 99,
+      "name_ja": "キングラー",
+      "name_hira": "きんぐらー",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "hyper-cutter",
+        "shell-armor"
+      ]
+    },
+    {
+      "id": 100,
+      "name_ja": "ビリリダマ",
+      "name_hira": "びりりだま",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "soundproof",
+        "static"
+      ]
+    },
+    {
+      "id": 101,
+      "name_ja": "マルマイン",
+      "name_hira": "まるまいん",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "soundproof",
+        "static"
+      ]
+    },
+    {
+      "id": 102,
+      "name_ja": "タマタマ",
+      "name_hira": "たまたま",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 103,
+      "name_ja": "ナッシー",
+      "name_hira": "なっしー",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 104,
+      "name_ja": "カラカラ",
+      "name_hira": "からから",
+      "types": [
+        "ground"
+      ],
+      "abilities": [
+        "rock-head",
+        "lightning-rod"
+      ]
+    },
+    {
+      "id": 105,
+      "name_ja": "ガラガラ",
+      "name_hira": "がらがら",
+      "types": [
+        "ground"
+      ],
+      "abilities": [
+        "rock-head",
+        "lightning-rod"
+      ]
+    },
+    {
+      "id": 106,
+      "name_ja": "サワムラー",
+      "name_hira": "さわむらー",
+      "types": [
+        "fighting"
+      ],
+      "abilities": [
+        "limber"
+      ]
+    },
+    {
+      "id": 107,
+      "name_ja": "エビワラー",
+      "name_hira": "えびわらー",
+      "types": [
+        "fighting"
+      ],
+      "abilities": [
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 108,
+      "name_ja": "ベロリンガ",
+      "name_hira": "べろりんが",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "own-tempo",
+        "oblivious"
+      ]
+    },
+    {
+      "id": 109,
+      "name_ja": "ドガース",
+      "name_hira": "どがーす",
+      "types": [
+        "poison"
+      ],
+      "abilities": [
+        "levitate"
+      ]
+    },
+    {
+      "id": 110,
+      "name_ja": "マタドガス",
+      "name_hira": "またどがす",
+      "types": [
+        "poison"
+      ],
+      "abilities": [
+        "levitate"
+      ]
+    },
+    {
+      "id": 111,
+      "name_ja": "サイホーン",
+      "name_hira": "さいほーん",
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "abilities": [
+        "lightning-rod",
+        "rock-head"
+      ]
+    },
+    {
+      "id": 112,
+      "name_ja": "サイドン",
+      "name_hira": "さいどん",
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "abilities": [
+        "lightning-rod",
+        "rock-head"
+      ]
+    },
+    {
+      "id": 113,
+      "name_ja": "ラッキー",
+      "name_hira": "らっきー",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "natural-cure",
+        "serene-grace"
+      ]
+    },
+    {
+      "id": 114,
+      "name_ja": "モンジャラ",
+      "name_hira": "もんじゃら",
+      "types": [
+        "grass"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 115,
+      "name_ja": "ガルーラ",
+      "name_hira": "がるーら",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "early-bird"
+      ]
+    },
+    {
+      "id": 116,
+      "name_ja": "タッツー",
+      "name_hira": "たっつー",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "swift-swim"
+      ]
+    },
+    {
+      "id": 117,
+      "name_ja": "シードラ",
+      "name_hira": "しーどら",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "poison-point"
+      ]
+    },
+    {
+      "id": 118,
+      "name_ja": "トサキント",
+      "name_hira": "とさきんと",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "swift-swim",
+        "water-veil"
+      ]
+    },
+    {
+      "id": 119,
+      "name_ja": "アズマオウ",
+      "name_hira": "あずまおう",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "swift-swim",
+        "water-veil"
+      ]
+    },
+    {
+      "id": 120,
+      "name_ja": "ヒトデマン",
+      "name_hira": "ひとでまん",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "illuminate",
+        "natural-cure"
+      ]
+    },
+    {
+      "id": 121,
+      "name_ja": "スターミー",
+      "name_hira": "すたーみー",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "abilities": [
+        "illuminate",
+        "natural-cure"
+      ]
+    },
+    {
+      "id": 122,
+      "name_ja": "バリヤード",
+      "name_hira": "ばりやーど",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "soundproof"
+      ]
+    },
+    {
+      "id": 123,
+      "name_ja": "ストライク",
+      "name_hira": "すとらいく",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "abilities": [
+        "swarm"
+      ]
+    },
+    {
+      "id": 124,
+      "name_ja": "ルージュラ",
+      "name_hira": "るーじゅら",
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "abilities": [
+        "oblivious"
+      ]
+    },
+    {
+      "id": 125,
+      "name_ja": "エレブー",
+      "name_hira": "えれぶー",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "static"
+      ]
+    },
+    {
+      "id": 126,
+      "name_ja": "ブーバー",
+      "name_hira": "ぶーばー",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "flame-body"
+      ]
+    },
+    {
+      "id": 127,
+      "name_ja": "カイロス",
+      "name_hira": "かいろす",
+      "types": [
+        "bug"
+      ],
+      "abilities": [
+        "hyper-cutter"
+      ]
+    },
+    {
+      "id": 128,
+      "name_ja": "ケンタロス",
+      "name_hira": "けんたろす",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "intimidate"
+      ]
+    },
+    {
+      "id": 129,
+      "name_ja": "コイキング",
+      "name_hira": "こいきんぐ",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "swift-swim"
+      ]
+    },
+    {
+      "id": 130,
+      "name_ja": "ギャラドス",
+      "name_hira": "ぎゃらどす",
+      "types": [
+        "water",
+        "flying"
+      ],
+      "abilities": [
+        "intimidate"
+      ]
+    },
+    {
+      "id": 131,
+      "name_ja": "ラプラス",
+      "name_hira": "らぷらす",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "abilities": [
+        "water-absorb",
+        "shell-armor"
+      ]
+    },
+    {
+      "id": 132,
+      "name_ja": "メタモン",
+      "name_hira": "めたもん",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "limber"
+      ]
+    },
+    {
+      "id": 133,
+      "name_ja": "イーブイ",
+      "name_hira": "いーぶい",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "run-away"
+      ]
+    },
+    {
+      "id": 134,
+      "name_ja": "シャワーズ",
+      "name_hira": "しゃわーず",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "water-absorb"
+      ]
+    },
+    {
+      "id": 135,
+      "name_ja": "サンダース",
+      "name_hira": "さんだーす",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "volt-absorb"
+      ]
+    },
+    {
+      "id": 136,
+      "name_ja": "ブースター",
+      "name_hira": "ぶーすたー",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "flash-fire"
+      ]
+    },
+    {
+      "id": 137,
+      "name_ja": "ポリゴン",
+      "name_hira": "ぽりごん",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "trace"
+      ]
+    },
+    {
+      "id": 138,
+      "name_ja": "オムナイト",
+      "name_hira": "おむないと",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "abilities": [
+        "swift-swim",
+        "shell-armor"
+      ]
+    },
+    {
+      "id": 139,
+      "name_ja": "オムスター",
+      "name_hira": "おむすたー",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "abilities": [
+        "swift-swim",
+        "shell-armor"
+      ]
+    },
+    {
+      "id": 140,
+      "name_ja": "カブト",
+      "name_hira": "かぶと",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "abilities": [
+        "swift-swim",
+        "battle-armor"
+      ]
+    },
+    {
+      "id": 141,
+      "name_ja": "カブトプス",
+      "name_hira": "かぶとぷす",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "abilities": [
+        "swift-swim",
+        "battle-armor"
+      ]
+    },
+    {
+      "id": 142,
+      "name_ja": "プテラ",
+      "name_hira": "ぷてら",
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "abilities": [
+        "rock-head",
+        "pressure"
+      ]
+    },
+    {
+      "id": 143,
+      "name_ja": "カビゴン",
+      "name_hira": "かびごん",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "immunity",
+        "thick-fat"
+      ]
+    },
+    {
+      "id": 144,
+      "name_ja": "フリーザー",
+      "name_hira": "ふりーざー",
+      "types": [
+        "ice",
+        "flying"
+      ],
+      "abilities": [
+        "pressure"
+      ]
+    },
+    {
+      "id": 145,
+      "name_ja": "サンダー",
+      "name_hira": "さんだー",
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "abilities": [
+        "pressure"
+      ]
+    },
+    {
+      "id": 146,
+      "name_ja": "ファイヤー",
+      "name_hira": "ふぁいやー",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "abilities": [
+        "pressure"
+      ]
+    },
+    {
+      "id": 147,
+      "name_ja": "ミニリュウ",
+      "name_hira": "みにりゅう",
+      "types": [
+        "dragon"
+      ],
+      "abilities": [
+        "shed-skin"
+      ]
+    },
+    {
+      "id": 148,
+      "name_ja": "ハクリュー",
+      "name_hira": "はくりゅー",
+      "types": [
+        "dragon"
+      ],
+      "abilities": [
+        "shed-skin"
+      ]
+    },
+    {
+      "id": 149,
+      "name_ja": "カイリュー",
+      "name_hira": "かいりゅー",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "abilities": [
+        "inner-focus"
+      ]
+    },
+    {
+      "id": 150,
+      "name_ja": "ミュウツー",
+      "name_hira": "みゅうつー",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "pressure"
+      ]
+    },
+    {
+      "id": 151,
+      "name_ja": "ミュウ",
+      "name_hira": "みゅう",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "synchronize"
+      ]
+    },
+    {
+      "id": 161,
+      "name_ja": "オタチ",
+      "name_hira": "おたち",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "run-away",
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 162,
+      "name_ja": "オオタチ",
+      "name_hira": "おおたち",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "run-away",
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 163,
+      "name_ja": "ホーホー",
+      "name_hira": "ほーほー",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "insomnia",
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 164,
+      "name_ja": "ヨルノズク",
+      "name_hira": "よるのずく",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "insomnia",
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 165,
+      "name_ja": "レディバ",
+      "name_hira": "れでぃば",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "abilities": [
+        "swarm",
+        "early-bird"
+      ]
+    },
+    {
+      "id": 166,
+      "name_ja": "レディアン",
+      "name_hira": "れでぃあん",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "abilities": [
+        "swarm",
+        "early-bird"
+      ]
+    },
+    {
+      "id": 167,
+      "name_ja": "イトマル",
+      "name_hira": "いとまる",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "abilities": [
+        "swarm",
+        "insomnia"
+      ]
+    },
+    {
+      "id": 168,
+      "name_ja": "アリアドス",
+      "name_hira": "ありあどす",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "abilities": [
+        "swarm",
+        "insomnia"
+      ]
+    },
+    {
+      "id": 169,
+      "name_ja": "クロバット",
+      "name_hira": "くろばっと",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "abilities": [
+        "inner-focus"
+      ]
+    },
+    {
+      "id": 170,
+      "name_ja": "チョンチー",
+      "name_hira": "ちょんちー",
+      "types": [
+        "water",
+        "electric"
+      ],
+      "abilities": [
+        "volt-absorb",
+        "illuminate"
+      ]
+    },
+    {
+      "id": 171,
+      "name_ja": "ランターン",
+      "name_hira": "らんたーん",
+      "types": [
+        "water",
+        "electric"
+      ],
+      "abilities": [
+        "volt-absorb",
+        "illuminate"
+      ]
+    },
+    {
+      "id": 172,
+      "name_ja": "ピチュー",
+      "name_hira": "ぴちゅー",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "static"
+      ]
+    },
+    {
+      "id": 173,
+      "name_ja": "ピィ",
+      "name_hira": "ぴぃ",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "cute-charm"
+      ]
+    },
+    {
+      "id": 174,
+      "name_ja": "ププリン",
+      "name_hira": "ぷぷりん",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "cute-charm"
+      ]
+    },
+    {
+      "id": 175,
+      "name_ja": "トゲピー",
+      "name_hira": "とげぴー",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "hustle",
+        "serene-grace"
+      ]
+    },
+    {
+      "id": 176,
+      "name_ja": "トゲチック",
+      "name_hira": "とげちっく",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "abilities": [
+        "hustle",
+        "serene-grace"
+      ]
+    },
+    {
+      "id": 177,
+      "name_ja": "ネイティ",
+      "name_hira": "ねいてぃ",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "abilities": [
+        "synchronize",
+        "early-bird"
+      ]
+    },
+    {
+      "id": 178,
+      "name_ja": "ネイティオ",
+      "name_hira": "ねいてぃお",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "abilities": [
+        "synchronize",
+        "early-bird"
+      ]
+    },
+    {
+      "id": 179,
+      "name_ja": "メリープ",
+      "name_hira": "めりーぷ",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "static"
+      ]
+    },
+    {
+      "id": 180,
+      "name_ja": "モココ",
+      "name_hira": "もここ",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "static"
+      ]
+    },
+    {
+      "id": 181,
+      "name_ja": "デンリュウ",
+      "name_hira": "でんりゅう",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "static"
+      ]
+    },
+    {
+      "id": 182,
+      "name_ja": "キレイハナ",
+      "name_hira": "きれいはな",
+      "types": [
+        "grass"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 183,
+      "name_ja": "マリル",
+      "name_hira": "まりる",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "thick-fat",
+        "huge-power"
+      ]
+    },
+    {
+      "id": 184,
+      "name_ja": "マリルリ",
+      "name_hira": "まりるり",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "thick-fat",
+        "huge-power"
+      ]
+    },
+    {
+      "id": 185,
+      "name_ja": "ウソッキー",
+      "name_hira": "うそっきー",
+      "types": [
+        "rock"
+      ],
+      "abilities": [
+        "sturdy",
+        "rock-head"
+      ]
+    },
+    {
+      "id": 186,
+      "name_ja": "ニョロトノ",
+      "name_hira": "にょろとの",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "water-absorb",
+        "damp"
+      ]
+    },
+    {
+      "id": 187,
+      "name_ja": "ハネッコ",
+      "name_hira": "はねっこ",
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 188,
+      "name_ja": "ポポッコ",
+      "name_hira": "ぽぽっこ",
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 189,
+      "name_ja": "ワタッコ",
+      "name_hira": "わたっこ",
+      "types": [
+        "grass",
+        "flying"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 190,
+      "name_ja": "エイパム",
+      "name_hira": "えいぱむ",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "run-away",
+        "pickup"
+      ]
+    },
+    {
+      "id": 191,
+      "name_ja": "ヒマナッツ",
+      "name_hira": "ひまなっつ",
+      "types": [
+        "grass"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 192,
+      "name_ja": "キマワリ",
+      "name_hira": "きまわり",
+      "types": [
+        "grass"
+      ],
+      "abilities": [
+        "chlorophyll"
+      ]
+    },
+    {
+      "id": 193,
+      "name_ja": "ヤンヤンマ",
+      "name_hira": "やんやんま",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "abilities": [
+        "speed-boost",
+        "compound-eyes"
+      ]
+    },
+    {
+      "id": 194,
+      "name_ja": "ウパー",
+      "name_hira": "うぱー",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "abilities": [
+        "damp",
+        "water-absorb"
+      ]
+    },
+    {
+      "id": 195,
+      "name_ja": "ヌオー",
+      "name_hira": "ぬおー",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "abilities": [
+        "damp",
+        "water-absorb"
+      ]
+    },
+    {
+      "id": 196,
+      "name_ja": "エーフィ",
+      "name_hira": "えーふぃ",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "synchronize"
+      ]
+    },
+    {
+      "id": 197,
+      "name_ja": "ブラッキー",
+      "name_hira": "ぶらっきー",
+      "types": [
+        "dark"
+      ],
+      "abilities": [
+        "synchronize"
+      ]
+    },
+    {
+      "id": 198,
+      "name_ja": "ヤミカラス",
+      "name_hira": "やみからす",
+      "types": [
+        "dark",
+        "flying"
+      ],
+      "abilities": [
+        "insomnia"
+      ]
+    },
+    {
+      "id": 199,
+      "name_ja": "ヤドキング",
+      "name_hira": "やどきんぐ",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "abilities": [
+        "oblivious",
+        "own-tempo"
+      ]
+    },
+    {
+      "id": 200,
+      "name_ja": "ムウマ",
+      "name_hira": "むうま",
+      "types": [
+        "ghost"
+      ],
+      "abilities": [
+        "levitate"
+      ]
+    },
+    {
+      "id": 201,
+      "name_ja": "アンノーン",
+      "name_hira": "あんのーん",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "levitate"
+      ]
+    },
+    {
+      "id": 202,
+      "name_ja": "ソーナンス",
+      "name_hira": "そーなんす",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "shadow-tag"
+      ]
+    },
+    {
+      "id": 203,
+      "name_ja": "キリンリキ",
+      "name_hira": "きりんりき",
+      "types": [
+        "normal",
+        "psychic"
+      ],
+      "abilities": [
+        "inner-focus",
+        "early-bird"
+      ]
+    },
+    {
+      "id": 204,
+      "name_ja": "クヌギダマ",
+      "name_hira": "くぬぎだま",
+      "types": [
+        "bug"
+      ],
+      "abilities": [
+        "sturdy"
+      ]
+    },
+    {
+      "id": 205,
+      "name_ja": "フォレトス",
+      "name_hira": "ふぉれとす",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "abilities": [
+        "sturdy"
+      ]
+    },
+    {
+      "id": 206,
+      "name_ja": "ノコッチ",
+      "name_hira": "のこっち",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "serene-grace",
+        "run-away"
+      ]
+    },
+    {
+      "id": 207,
+      "name_ja": "グライガー",
+      "name_hira": "ぐらいがー",
+      "types": [
+        "ground",
+        "flying"
+      ],
+      "abilities": [
+        "hyper-cutter",
+        "sand-veil"
+      ]
+    },
+    {
+      "id": 208,
+      "name_ja": "ハガネール",
+      "name_hira": "はがねーる",
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "abilities": [
+        "rock-head",
+        "sturdy"
+      ]
+    },
+    {
+      "id": 209,
+      "name_ja": "ブルー",
+      "name_hira": "ぶるー",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "intimidate",
+        "run-away"
+      ]
+    },
+    {
+      "id": 210,
+      "name_ja": "グランブル",
+      "name_hira": "ぐらんぶる",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "intimidate"
+      ]
+    },
+    {
+      "id": 211,
+      "name_ja": "ハリーセン",
+      "name_hira": "はりーせん",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "abilities": [
+        "poison-point",
+        "swift-swim"
+      ]
+    },
+    {
+      "id": 212,
+      "name_ja": "ハッサム",
+      "name_hira": "はっさむ",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "abilities": [
+        "swarm"
+      ]
+    },
+    {
+      "id": 213,
+      "name_ja": "ツボツボ",
+      "name_hira": "つぼつぼ",
+      "types": [
+        "bug",
+        "rock"
+      ],
+      "abilities": [
+        "sturdy"
+      ]
+    },
+    {
+      "id": 214,
+      "name_ja": "ヘラクロス",
+      "name_hira": "へらくろす",
+      "types": [
+        "bug",
+        "fighting"
+      ],
+      "abilities": [
+        "swarm",
+        "guts"
+      ]
+    },
+    {
+      "id": 215,
+      "name_ja": "ニューラ",
+      "name_hira": "にゅーら",
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "abilities": [
+        "inner-focus",
+        "keen-eye"
+      ]
+    },
+    {
+      "id": 216,
+      "name_ja": "ヒメグマ",
+      "name_hira": "ひめぐま",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "pickup"
+      ]
+    },
+    {
+      "id": 217,
+      "name_ja": "リングマ",
+      "name_hira": "りんぐま",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "guts"
+      ]
+    },
+    {
+      "id": 218,
+      "name_ja": "マグマッグ",
+      "name_hira": "まぐまっぐ",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "magma-armor",
+        "flame-body"
+      ]
+    },
+    {
+      "id": 219,
+      "name_ja": "マグカルゴ",
+      "name_hira": "まぐかるご",
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "abilities": [
+        "magma-armor",
+        "flame-body"
+      ]
+    },
+    {
+      "id": 220,
+      "name_ja": "ウリムー",
+      "name_hira": "うりむー",
+      "types": [
+        "ice",
+        "ground"
+      ],
+      "abilities": [
+        "oblivious"
+      ]
+    },
+    {
+      "id": 221,
+      "name_ja": "イノムー",
+      "name_hira": "いのむー",
+      "types": [
+        "ice",
+        "ground"
+      ],
+      "abilities": [
+        "oblivious"
+      ]
+    },
+    {
+      "id": 222,
+      "name_ja": "サニーゴ",
+      "name_hira": "さにーご",
+      "types": [
+        "water",
+        "rock"
+      ],
+      "abilities": [
+        "hustle",
+        "natural-cure"
+      ]
+    },
+    {
+      "id": 223,
+      "name_ja": "テッポウオ",
+      "name_hira": "てっぽうお",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "hustle"
+      ]
+    },
+    {
+      "id": 224,
+      "name_ja": "オクタン",
+      "name_hira": "おくたん",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "suction-cups"
+      ]
+    },
+    {
+      "id": 225,
+      "name_ja": "デリバード",
+      "name_hira": "でりばーど",
+      "types": [
+        "ice",
+        "flying"
+      ],
+      "abilities": [
+        "vital-spirit",
+        "hustle"
+      ]
+    },
+    {
+      "id": 226,
+      "name_ja": "マンタイン",
+      "name_hira": "まんたいん",
+      "types": [
+        "water",
+        "flying"
+      ],
+      "abilities": [
+        "swift-swim",
+        "water-absorb"
+      ]
+    },
+    {
+      "id": 227,
+      "name_ja": "エアームド",
+      "name_hira": "えあーむど",
+      "types": [
+        "steel",
+        "flying"
+      ],
+      "abilities": [
+        "keen-eye",
+        "sturdy"
+      ]
+    },
+    {
+      "id": 228,
+      "name_ja": "デルビル",
+      "name_hira": "でるびる",
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "abilities": [
+        "early-bird",
+        "flash-fire"
+      ]
+    },
+    {
+      "id": 229,
+      "name_ja": "ヘルガー",
+      "name_hira": "へるがー",
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "abilities": [
+        "early-bird",
+        "flash-fire"
+      ]
+    },
+    {
+      "id": 230,
+      "name_ja": "キングドラ",
+      "name_hira": "きんぐどら",
+      "types": [
+        "water",
+        "dragon"
+      ],
+      "abilities": [
+        "swift-swim"
+      ]
+    },
+    {
+      "id": 231,
+      "name_ja": "ゴマゾウ",
+      "name_hira": "ごまぞう",
+      "types": [
+        "ground"
+      ],
+      "abilities": [
+        "pickup"
+      ]
+    },
+    {
+      "id": 232,
+      "name_ja": "ドンファン",
+      "name_hira": "どんふぁん",
+      "types": [
+        "ground"
+      ],
+      "abilities": [
+        "sturdy"
+      ]
+    },
+    {
+      "id": 233,
+      "name_ja": "ポリゴン２",
+      "name_hira": "ぽりごん２",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "trace"
+      ]
+    },
+    {
+      "id": 234,
+      "name_ja": "オドシシ",
+      "name_hira": "おどしし",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "intimidate"
+      ]
+    },
+    {
+      "id": 235,
+      "name_ja": "ドーブル",
+      "name_hira": "どーぶる",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "own-tempo"
+      ]
+    },
+    {
+      "id": 236,
+      "name_ja": "バルキー",
+      "name_hira": "ばるきー",
+      "types": [
+        "fighting"
+      ],
+      "abilities": [
+        "guts"
+      ]
+    },
+    {
+      "id": 237,
+      "name_ja": "カポエラー",
+      "name_hira": "かぽえらー",
+      "types": [
+        "fighting"
+      ],
+      "abilities": [
+        "intimidate"
+      ]
+    },
+    {
+      "id": 238,
+      "name_ja": "ムチュール",
+      "name_hira": "むちゅーる",
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "abilities": [
+        "oblivious"
+      ]
+    },
+    {
+      "id": 239,
+      "name_ja": "エレキッド",
+      "name_hira": "えれきっど",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "static"
+      ]
+    },
+    {
+      "id": 240,
+      "name_ja": "ブビィ",
+      "name_hira": "ぶびぃ",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "flame-body"
+      ]
+    },
+    {
+      "id": 241,
+      "name_ja": "ミルタンク",
+      "name_hira": "みるたんく",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "thick-fat"
+      ]
+    },
+    {
+      "id": 242,
+      "name_ja": "ハピナス",
+      "name_hira": "はぴなす",
+      "types": [
+        "normal"
+      ],
+      "abilities": [
+        "natural-cure",
+        "serene-grace"
+      ]
+    },
+    {
+      "id": 243,
+      "name_ja": "ライコウ",
+      "name_hira": "らいこう",
+      "types": [
+        "electric"
+      ],
+      "abilities": [
+        "pressure"
+      ]
+    },
+    {
+      "id": 244,
+      "name_ja": "エンテイ",
+      "name_hira": "えんてい",
+      "types": [
+        "fire"
+      ],
+      "abilities": [
+        "pressure"
+      ]
+    },
+    {
+      "id": 245,
+      "name_ja": "スイクン",
+      "name_hira": "すいくん",
+      "types": [
+        "water"
+      ],
+      "abilities": [
+        "pressure"
+      ]
+    },
+    {
+      "id": 246,
+      "name_ja": "ヨーギラス",
+      "name_hira": "よーぎらす",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "abilities": [
+        "guts"
+      ]
+    },
+    {
+      "id": 247,
+      "name_ja": "サナギラス",
+      "name_hira": "さなぎらす",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "abilities": [
+        "shed-skin"
+      ]
+    },
+    {
+      "id": 248,
+      "name_ja": "バンギラス",
+      "name_hira": "ばんぎらす",
+      "types": [
+        "rock",
+        "dark"
+      ],
+      "abilities": [
+        "sand-stream"
+      ]
+    },
+    {
+      "id": 249,
+      "name_ja": "ルギア",
+      "name_hira": "るぎあ",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "abilities": [
+        "pressure"
+      ]
+    },
+    {
+      "id": 250,
+      "name_ja": "ホウオウ",
+      "name_hira": "ほうおう",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "abilities": [
+        "pressure"
+      ]
+    },
+    {
+      "id": 251,
+      "name_ja": "セレビィ",
+      "name_hira": "せれびぃ",
+      "types": [
+        "psychic",
+        "grass"
+      ],
+      "abilities": [
+        "natural-cure"
+      ]
+    }
+  ],
+  "abilities": {
+    "arena-trap": {
+      "name_ja": "ありじごく",
+      "desc_ja": "戦闘で 相手を 逃げられなくする。"
+    },
+    "battle-armor": {
+      "name_ja": "カブトアーマー",
+      "desc_ja": "相手の 攻撃が 急所に 当たらない。"
+    },
+    "blaze": {
+      "name_ja": "もうか",
+      "desc_ja": "ピンチのとき ほのおの 威力が あがる。"
+    },
+    "chlorophyll": {
+      "name_ja": "ようりょくそ",
+      "desc_ja": "晴れのとき 素早さが あがる。"
+    },
+    "clear-body": {
+      "name_ja": "クリアボディ",
+      "desc_ja": "相手に 能力を さげられない。"
+    },
+    "cloud-nine": {
+      "name_ja": "ノーてんき",
+      "desc_ja": "天気の 影響が なくなる。"
+    },
+    "compound-eyes": {
+      "name_ja": "ふくがん",
+      "desc_ja": "技の 命中率が あがる。"
+    },
+    "cute-charm": {
+      "name_ja": "メロメロボディ",
+      "desc_ja": "触れると メロメロに することがある。"
+    },
+    "damp": {
+      "name_ja": "しめりけ",
+      "desc_ja": "だれも 爆発が できなくなる。"
+    },
+    "early-bird": {
+      "name_ja": "はやおき",
+      "desc_ja": "起きるのが 早くなる。"
+    },
+    "effect-spore": {
+      "name_ja": "ほうし",
+      "desc_ja": "触れると どく まひ ねむりに することがある。"
+    },
+    "flame-body": {
+      "name_ja": "ほのおのからだ",
+      "desc_ja": "触れた 相手を やけど させることがある。"
+    },
+    "flash-fire": {
+      "name_ja": "もらいび",
+      "desc_ja": "ほのおを 受けると ほのお技が 強くなる。",
+      "negates": "fire"
+    },
+    "guts": {
+      "name_ja": "こんじょう",
+      "desc_ja": "状態異常で 攻撃が あがる。"
+    },
+    "huge-power": {
+      "name_ja": "ちからもち",
+      "desc_ja": "物理攻撃の 威力が あがる。"
+    },
+    "hustle": {
+      "name_ja": "はりきり",
+      "desc_ja": "攻撃は たかいが はずれやすい。"
+    },
+    "hyper-cutter": {
+      "name_ja": "かいりきバサミ",
+      "desc_ja": "相手に 攻撃を さげられない。"
+    },
+    "illuminate": {
+      "name_ja": "はっこう",
+      "desc_ja": "野生の ポケモンに 遭遇しやすくなる。"
+    },
+    "immunity": {
+      "name_ja": "めんえき",
+      "desc_ja": "どく状態に ならない。"
+    },
+    "inner-focus": {
+      "name_ja": "せいしんりょく",
+      "desc_ja": "ひるまない。"
+    },
+    "insomnia": {
+      "name_ja": "ふみん",
+      "desc_ja": "ねむり状態に ならない。"
+    },
+    "intimidate": {
+      "name_ja": "いかく",
+      "desc_ja": "相手の 攻撃を さげる。"
+    },
+    "keen-eye": {
+      "name_ja": "するどいめ",
+      "desc_ja": "命中率を さげられない。"
+    },
+    "levitate": {
+      "name_ja": "ふゆう",
+      "desc_ja": "じめんタイプの 技を 受けない。",
+      "negates": "ground"
+    },
+    "lightning-rod": {
+      "name_ja": "ひらいしん",
+      "desc_ja": "でんきを 呼び込んで 特攻を あげる。"
+    },
+    "limber": {
+      "name_ja": "じゅうなん",
+      "desc_ja": "まひ状態に ならない。"
+    },
+    "liquid-ooze": {
+      "name_ja": "ヘドロえき",
+      "desc_ja": "吸いとった 相手の ＨＰを 減らす。"
+    },
+    "magma-armor": {
+      "name_ja": "マグマのよろい",
+      "desc_ja": "こおり状態に ならない。"
+    },
+    "magnet-pull": {
+      "name_ja": "じりょく",
+      "desc_ja": "はがねの ポケモンを 逃げられなくする。"
+    },
+    "natural-cure": {
+      "name_ja": "しぜんかいふく",
+      "desc_ja": "状態異常が ひっこむと 治る。"
+    },
+    "oblivious": {
+      "name_ja": "どんかん",
+      "desc_ja": "メロメロや ちょうはつ 状態に ならない。"
+    },
+    "overgrow": {
+      "name_ja": "しんりょく",
+      "desc_ja": "ピンチのとき くさの 威力が あがる。"
+    },
+    "own-tempo": {
+      "name_ja": "マイペース",
+      "desc_ja": "混乱状態に ならない。"
+    },
+    "pickup": {
+      "name_ja": "ものひろい",
+      "desc_ja": "道具を 拾ってくる ことが ある。"
+    },
+    "poison-point": {
+      "name_ja": "どくのトゲ",
+      "desc_ja": "触れた 相手に どくを おわせる ことがある。"
+    },
+    "pressure": {
+      "name_ja": "プレッシャー",
+      "desc_ja": "相手の 使う 技の ＰＰを 多く 減らす。"
+    },
+    "rock-head": {
+      "name_ja": "いしあたま",
+      "desc_ja": "ぶつかっても 反動を 受けない。"
+    },
+    "run-away": {
+      "name_ja": "にげあし",
+      "desc_ja": "野生の ポケモンから 必ず 逃げられる。"
+    },
+    "sand-stream": {
+      "name_ja": "すなおこし",
+      "desc_ja": "戦闘で 砂あらしを おこす。"
+    },
+    "sand-veil": {
+      "name_ja": "すながくれ",
+      "desc_ja": "砂あらしで 回避率が あがる。"
+    },
+    "serene-grace": {
+      "name_ja": "てんのめぐみ",
+      "desc_ja": "技の 追加効果が でやすい。"
+    },
+    "shadow-tag": {
+      "name_ja": "かげふみ",
+      "desc_ja": "相手の 影をふみ 逃げられなくする。"
+    },
+    "shed-skin": {
+      "name_ja": "だっぴ",
+      "desc_ja": "状態異常を 治すことが ある。"
+    },
+    "shell-armor": {
+      "name_ja": "シェルアーマー",
+      "desc_ja": "相手の 攻撃が 急所に 当たらない。"
+    },
+    "shield-dust": {
+      "name_ja": "りんぷん",
+      "desc_ja": "技の 追加効果を 受けない。"
+    },
+    "soundproof": {
+      "name_ja": "ぼうおん",
+      "desc_ja": "音の 技を 受けない。"
+    },
+    "speed-boost": {
+      "name_ja": "かそく",
+      "desc_ja": "ちょっとずつ 素早く なっていく。"
+    },
+    "static": {
+      "name_ja": "せいでんき",
+      "desc_ja": "触った 相手を まひさせる ことがある。"
+    },
+    "stench": {
+      "name_ja": "あくしゅう",
+      "desc_ja": "臭くて 相手が ひるむ ことがある。"
+    },
+    "sticky-hold": {
+      "name_ja": "ねんちゃく",
+      "desc_ja": "ねんちゃくして 道具を 守る。"
+    },
+    "sturdy": {
+      "name_ja": "がんじょう",
+      "desc_ja": "一撃で 倒されない。"
+    },
+    "suction-cups": {
+      "name_ja": "きゅうばん",
+      "desc_ja": "入れ替えさせる 技や 道具が 効かない。"
+    },
+    "swarm": {
+      "name_ja": "むしのしらせ",
+      "desc_ja": "ピンチのとき むしの 威力が あがる。"
+    },
+    "swift-swim": {
+      "name_ja": "すいすい",
+      "desc_ja": "雨のとき 素早さが あがる。"
+    },
+    "synchronize": {
+      "name_ja": "シンクロ",
+      "desc_ja": "どく まひ やけどを 相手に うつす。"
+    },
+    "thick-fat": {
+      "name_ja": "あついしぼう",
+      "desc_ja": "ほのおと こおりタイプの 技に 強い。",
+      "halves": [
+        "fire",
+        "ice"
+      ]
+    },
+    "torrent": {
+      "name_ja": "げきりゅう",
+      "desc_ja": "ピンチのとき みずの 威力が あがる。"
+    },
+    "trace": {
+      "name_ja": "トレース",
+      "desc_ja": "相手と 同じ 特性に なる。"
+    },
+    "vital-spirit": {
+      "name_ja": "やるき",
+      "desc_ja": "ねむり状態に ならない。"
+    },
+    "volt-absorb": {
+      "name_ja": "ちくでん",
+      "desc_ja": "でんきを 受けると 回復する。",
+      "negates": "electric"
+    },
+    "water-absorb": {
+      "name_ja": "ちょすい",
+      "desc_ja": "みずを 受けると 回復する。",
+      "negates": "water"
+    },
+    "water-veil": {
+      "name_ja": "みずのベール",
+      "desc_ja": "やけど状態に ならない。"
+    }
+  }
+}
