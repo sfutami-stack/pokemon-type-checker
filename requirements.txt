@@ -1,1 +1,4 @@
 requests>=2.31.0
+pykakasi>=2.2.1
+# Pillow is only needed by make_icons.py (placeholder PWA icons), not by build_data.py.
+Pillow>=10.0.0

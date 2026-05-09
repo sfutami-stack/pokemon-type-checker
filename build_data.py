@@ -24,10 +24,12 @@ Scope (per spec):
 """
 
 import json
+import re
 import sys
 import time
 from pathlib import Path
 
+import pykakasi
 import requests
 
 ROOT = Path(__file__).resolve().parent
@@ -196,22 +198,66 @@ _VG_PREFERENCE = [
     "sword-shield", "scarlet-violet",
 ]
 
+# Daughter (small kid) can't read kanji yet, so strip every kanji from the
+# ability descriptions. Note: PokeAPI's "ja-Hrkt" flavor text isn't actually
+# pure kana — it still ships kanji like 触 / 相手 / 状態. So we always run the
+# chosen text through pykakasi and replace each kanji-bearing token with its
+# hiragana reading. Hiragana stays as hiragana; katakana words like タイプ /
+# マグマ / シェル are intentionally preserved (the user wants the kana style
+# kept for technical / loanword vocabulary).
+_KANJI_RE = re.compile(r"[㐀-䶿一-鿿豈-﫿]")
+_KAKASI = pykakasi.kakasi()
+
+
+def _strip_kanji(text):
+    if not _KANJI_RE.search(text):
+        return text
+    out = []
+    for item in _KAKASI.convert(text):
+        orig = item["orig"]
+        out.append(item["hira"] if _KANJI_RE.search(orig) else orig)
+    return "".join(out)
+
 
 def japanese_ability_text(ability):
-    by_vg = {}
+    # Bucket flavor text by version_group, separately for ja-Hrkt (preferred)
+    # and ja (fallback). Within each language, the first entry per
+    # version_group wins.
+    by_vg_hrkt = {}
+    by_vg_ja = {}
     for ft in ability["flavor_text_entries"]:
-        if ft["language"]["name"] in ("ja-Hrkt", "ja"):
-            vg = ft.get("version_group", {}).get("name", "")
-            by_vg.setdefault(vg, ft["flavor_text"])
+        lang = ft["language"]["name"]
+        vg = ft.get("version_group", {}).get("name", "")
+        if lang == "ja-Hrkt":
+            by_vg_hrkt.setdefault(vg, ft["flavor_text"])
+        elif lang == "ja":
+            by_vg_ja.setdefault(vg, ft["flavor_text"])
+
+    chosen = None
+    # 1) Best ja-Hrkt by version-group preference.
     for vg in _VG_PREFERENCE:
-        if vg in by_vg:
-            return _clean(by_vg[vg])
-    if by_vg:
-        return _clean(next(iter(by_vg.values())))
-    for e in ability["effect_entries"]:
-        if e["language"]["name"] == "en":
-            return e.get("short_effect", "").strip()
-    return ""
+        if vg in by_vg_hrkt:
+            chosen = by_vg_hrkt[vg]
+            break
+    # 2) Best ja by version-group preference.
+    if chosen is None:
+        for vg in _VG_PREFERENCE:
+            if vg in by_vg_ja:
+                chosen = by_vg_ja[vg]
+                break
+    # 3) Any ja-Hrkt then any ja.
+    if chosen is None and by_vg_hrkt:
+        chosen = next(iter(by_vg_hrkt.values()))
+    if chosen is None and by_vg_ja:
+        chosen = next(iter(by_vg_ja.values()))
+    # 4) Fall back to English short_effect.
+    if chosen is None:
+        for e in ability["effect_entries"]:
+            if e["language"]["name"] == "en":
+                return e.get("short_effect", "").strip()
+        return ""
+
+    return _strip_kanji(_clean(chosen))
 
 
 def _clean(text):

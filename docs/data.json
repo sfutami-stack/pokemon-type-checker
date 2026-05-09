@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-05-09T06:51:28Z",
+  "generated_at": "2026-05-09T21:20:52Z",
   "types": {
     "normal": {
       "it": "NORMALE",
@@ -3284,80 +3284,80 @@
   "abilities": {
     "arena-trap": {
       "name_ja": "ありじごく",
-      "desc_ja": "戦闘で 相手を 逃げられなくする。"
+      "desc_ja": "せんとうで あいてを にげられなくする。"
     },
     "battle-armor": {
       "name_ja": "カブトアーマー",
-      "desc_ja": "相手の 攻撃が 急所に 当たらない。"
+      "desc_ja": "あいての こうげきが きゅうしょに あたらない。"
     },
     "blaze": {
       "name_ja": "もうか",
-      "desc_ja": "ピンチのとき ほのおの 威力が あがる。"
+      "desc_ja": "ピンチのとき ほのおの いりょくが あがる。"
     },
     "chlorophyll": {
       "name_ja": "ようりょくそ",
-      "desc_ja": "晴れのとき 素早さが あがる。"
+      "desc_ja": "はれのとき すばやさが あがる。"
     },
     "clear-body": {
       "name_ja": "クリアボディ",
-      "desc_ja": "相手に 能力を さげられない。"
+      "desc_ja": "あいてに のうりょくを さげられない。"
     },
     "cloud-nine": {
       "name_ja": "ノーてんき",
-      "desc_ja": "天気の 影響が なくなる。"
+      "desc_ja": "てんきの えいきょうが なくなる。"
     },
     "compound-eyes": {
       "name_ja": "ふくがん",
-      "desc_ja": "技の 命中率が あがる。"
+      "desc_ja": "わざの めいちゅうりつが あがる。"
     },
     "cute-charm": {
       "name_ja": "メロメロボディ",
-      "desc_ja": "触れると メロメロに することがある。"
+      "desc_ja": "ふれると メロメロに することがある。"
     },
     "damp": {
       "name_ja": "しめりけ",
-      "desc_ja": "だれも 爆発が できなくなる。"
+      "desc_ja": "だれも ばくはつが できなくなる。"
     },
     "early-bird": {
       "name_ja": "はやおき",
-      "desc_ja": "起きるのが 早くなる。"
+      "desc_ja": "おきるのが はやくなる。"
     },
     "effect-spore": {
       "name_ja": "ほうし",
-      "desc_ja": "触れると どく まひ ねむりに することがある。"
+      "desc_ja": "ふれると どく まひ ねむりに することがある。"
     },
     "flame-body": {
       "name_ja": "ほのおのからだ",
-      "desc_ja": "触れた 相手を やけど させることがある。"
+      "desc_ja": "ふれた あいてを やけど させることがある。"
     },
     "flash-fire": {
       "name_ja": "もらいび",
-      "desc_ja": "ほのおを 受けると ほのお技が 強くなる。",
+      "desc_ja": "ほのおを うけると ほのおわざが つよくなる。",
       "negates": "fire"
     },
     "guts": {
       "name_ja": "こんじょう",
-      "desc_ja": "状態異常で 攻撃が あがる。"
+      "desc_ja": "じょうたいいじょうで こうげきが あがる。"
     },
     "huge-power": {
       "name_ja": "ちからもち",
-      "desc_ja": "物理攻撃の 威力が あがる。"
+      "desc_ja": "ぶつりこうげきの いりょくが あがる。"
     },
     "hustle": {
       "name_ja": "はりきり",
-      "desc_ja": "攻撃は たかいが はずれやすい。"
+      "desc_ja": "こうげきは たかいが はずれやすい。"
     },
     "hyper-cutter": {
       "name_ja": "かいりきバサミ",
-      "desc_ja": "相手に 攻撃を さげられない。"
+      "desc_ja": "あいてに こうげきを さげられない。"
     },
     "illuminate": {
       "name_ja": "はっこう",
-      "desc_ja": "野生の ポケモンに 遭遇しやすくなる。"
+      "desc_ja": "やせいの ポケモンに そうぐうしやすくなる。"
     },
     "immunity": {
       "name_ja": "めんえき",
-      "desc_ja": "どく状態に ならない。"
+      "desc_ja": "どくじょうたいに ならない。"
     },
     "inner-focus": {
       "name_ja": "せいしんりょく",
@@ -3365,148 +3365,148 @@
     },
     "insomnia": {
       "name_ja": "ふみん",
-      "desc_ja": "ねむり状態に ならない。"
+      "desc_ja": "ねむりじょうたいに ならない。"
     },
     "intimidate": {
       "name_ja": "いかく",
-      "desc_ja": "相手の 攻撃を さげる。"
+      "desc_ja": "あいての こうげきを さげる。"
     },
     "keen-eye": {
       "name_ja": "するどいめ",
-      "desc_ja": "命中率を さげられない。"
+      "desc_ja": "めいちゅうりつを さげられない。"
     },
     "levitate": {
       "name_ja": "ふゆう",
-      "desc_ja": "じめんタイプの 技を 受けない。",
+      "desc_ja": "じめんタイプの わざを うけない。",
       "negates": "ground"
     },
     "lightning-rod": {
       "name_ja": "ひらいしん",
-      "desc_ja": "でんきを 呼び込んで 特攻を あげる。"
+      "desc_ja": "でんきを よびこんで とっこうを あげる。"
     },
     "limber": {
       "name_ja": "じゅうなん",
-      "desc_ja": "まひ状態に ならない。"
+      "desc_ja": "まひじょうたいに ならない。"
     },
     "liquid-ooze": {
       "name_ja": "ヘドロえき",
-      "desc_ja": "吸いとった 相手の ＨＰを 減らす。"
+      "desc_ja": "すいとった あいての ＨＰを へらす。"
     },
     "magma-armor": {
       "name_ja": "マグマのよろい",
-      "desc_ja": "こおり状態に ならない。"
+      "desc_ja": "こおりじょうたいに ならない。"
     },
     "magnet-pull": {
       "name_ja": "じりょく",
-      "desc_ja": "はがねの ポケモンを 逃げられなくする。"
+      "desc_ja": "はがねの ポケモンを にげられなくする。"
     },
     "natural-cure": {
       "name_ja": "しぜんかいふく",
-      "desc_ja": "状態異常が ひっこむと 治る。"
+      "desc_ja": "じょうたいいじょうが ひっこむと なおる。"
     },
     "oblivious": {
       "name_ja": "どんかん",
-      "desc_ja": "メロメロや ちょうはつ 状態に ならない。"
+      "desc_ja": "メロメロや ちょうはつ じょうたいに ならない。"
     },
     "overgrow": {
       "name_ja": "しんりょく",
-      "desc_ja": "ピンチのとき くさの 威力が あがる。"
+      "desc_ja": "ピンチのとき くさの いりょくが あがる。"
     },
     "own-tempo": {
       "name_ja": "マイペース",
-      "desc_ja": "混乱状態に ならない。"
+      "desc_ja": "こんらんじょうたいに ならない。"
     },
     "pickup": {
       "name_ja": "ものひろい",
-      "desc_ja": "道具を 拾ってくる ことが ある。"
+      "desc_ja": "どうぐを ひろってくる ことが ある。"
     },
     "poison-point": {
       "name_ja": "どくのトゲ",
-      "desc_ja": "触れた 相手に どくを おわせる ことがある。"
+      "desc_ja": "ふれた あいてに どくを おわせる ことがある。"
     },
     "pressure": {
       "name_ja": "プレッシャー",
-      "desc_ja": "相手の 使う 技の ＰＰを 多く 減らす。"
+      "desc_ja": "あいての つかう わざの ＰＰを おおく へらす。"
     },
     "rock-head": {
       "name_ja": "いしあたま",
-      "desc_ja": "ぶつかっても 反動を 受けない。"
+      "desc_ja": "ぶつかっても はんどうを うけない。"
     },
     "run-away": {
       "name_ja": "にげあし",
-      "desc_ja": "野生の ポケモンから 必ず 逃げられる。"
+      "desc_ja": "やせいの ポケモンから かならず にげられる。"
     },
     "sand-stream": {
       "name_ja": "すなおこし",
-      "desc_ja": "戦闘で 砂あらしを おこす。"
+      "desc_ja": "せんとうで すなあらしを おこす。"
     },
     "sand-veil": {
       "name_ja": "すながくれ",
-      "desc_ja": "砂あらしで 回避率が あがる。"
+      "desc_ja": "すなあらしで かいひりつが あがる。"
     },
     "serene-grace": {
       "name_ja": "てんのめぐみ",
-      "desc_ja": "技の 追加効果が でやすい。"
+      "desc_ja": "わざの ついかこうかが でやすい。"
     },
     "shadow-tag": {
       "name_ja": "かげふみ",
-      "desc_ja": "相手の 影をふみ 逃げられなくする。"
+      "desc_ja": "あいての かげをふみ にげられなくする。"
     },
     "shed-skin": {
       "name_ja": "だっぴ",
-      "desc_ja": "状態異常を 治すことが ある。"
+      "desc_ja": "じょうたいいじょうを なおすことが ある。"
     },
     "shell-armor": {
       "name_ja": "シェルアーマー",
-      "desc_ja": "相手の 攻撃が 急所に 当たらない。"
+      "desc_ja": "あいての こうげきが きゅうしょに あたらない。"
     },
     "shield-dust": {
       "name_ja": "りんぷん",
-      "desc_ja": "技の 追加効果を 受けない。"
+      "desc_ja": "わざの ついかこうかを うけない。"
     },
     "soundproof": {
       "name_ja": "ぼうおん",
-      "desc_ja": "音の 技を 受けない。"
+      "desc_ja": "おとの わざを うけない。"
     },
     "speed-boost": {
       "name_ja": "かそく",
-      "desc_ja": "ちょっとずつ 素早く なっていく。"
+      "desc_ja": "ちょっとずつ すばやく なっていく。"
     },
     "static": {
       "name_ja": "せいでんき",
-      "desc_ja": "触った 相手を まひさせる ことがある。"
+      "desc_ja": "さわった あいてを まひさせる ことがある。"
     },
     "stench": {
       "name_ja": "あくしゅう",
-      "desc_ja": "臭くて 相手が ひるむ ことがある。"
+      "desc_ja": "くさくて あいてが ひるむ ことがある。"
     },
     "sticky-hold": {
       "name_ja": "ねんちゃく",
-      "desc_ja": "ねんちゃくして 道具を 守る。"
+      "desc_ja": "ねんちゃくして どうぐを まもる。"
     },
     "sturdy": {
       "name_ja": "がんじょう",
-      "desc_ja": "一撃で 倒されない。"
+      "desc_ja": "いちげきで たおされない。"
     },
     "suction-cups": {
       "name_ja": "きゅうばん",
-      "desc_ja": "入れ替えさせる 技や 道具が 効かない。"
+      "desc_ja": "いれかえさせる わざや どうぐが きかない。"
     },
     "swarm": {
       "name_ja": "むしのしらせ",
-      "desc_ja": "ピンチのとき むしの 威力が あがる。"
+      "desc_ja": "ピンチのとき むしの いりょくが あがる。"
     },
     "swift-swim": {
       "name_ja": "すいすい",
-      "desc_ja": "雨のとき 素早さが あがる。"
+      "desc_ja": "あめのとき すばやさが あがる。"
     },
     "synchronize": {
       "name_ja": "シンクロ",
-      "desc_ja": "どく まひ やけどを 相手に うつす。"
+      "desc_ja": "どく まひ やけどを あいてに うつす。"
     },
     "thick-fat": {
       "name_ja": "あついしぼう",
-      "desc_ja": "ほのおと こおりタイプの 技に 強い。",
+      "desc_ja": "ほのおと こおりタイプの わざに つよい。",
       "halves": [
         "fire",
         "ice"
@@ -3514,29 +3514,29 @@
     },
     "torrent": {
       "name_ja": "げきりゅう",
-      "desc_ja": "ピンチのとき みずの 威力が あがる。"
+      "desc_ja": "ピンチのとき みずの いりょくが あがる。"
     },
     "trace": {
       "name_ja": "トレース",
-      "desc_ja": "相手と 同じ 特性に なる。"
+      "desc_ja": "あいてと おなじ とくせいに なる。"
     },
     "vital-spirit": {
       "name_ja": "やるき",
-      "desc_ja": "ねむり状態に ならない。"
+      "desc_ja": "ねむりじょうたいに ならない。"
     },
     "volt-absorb": {
       "name_ja": "ちくでん",
-      "desc_ja": "でんきを 受けると 回復する。",
+      "desc_ja": "でんきを うけると かいふくする。",
       "negates": "electric"
     },
     "water-absorb": {
       "name_ja": "ちょすい",
-      "desc_ja": "みずを 受けると 回復する。",
+      "desc_ja": "みずを うけると かいふくする。",
       "negates": "water"
     },
     "water-veil": {
       "name_ja": "みずのベール",
-      "desc_ja": "やけど状態に ならない。"
+      "desc_ja": "やけどじょうたいに ならない。"
     }
   }
 }
