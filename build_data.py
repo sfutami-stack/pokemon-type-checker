@@ -35,6 +35,7 @@ import requests
 ROOT = Path(__file__).resolve().parent
 CACHE_DIR = ROOT / ".cache"
 OUTPUT = ROOT / "docs" / "data.json"
+SW_PATH = ROOT / "docs" / "service-worker.js"
 POKEAPI = "https://pokeapi.co/api/v2"
 HEADERS = {"User-Agent": "frlg-type-tool/1.0 (personal use)"}
 
@@ -378,9 +379,10 @@ def main():
             entry.update(SPECIAL_ABILITIES[key])
         abilities_out[key] = entry
 
+    generated_at = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     output = {
         "version": "1.0.0",
-        "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "generated_at": generated_at,
         "types": TYPES,
         "type_chart": build_type_chart(),
         "pokemon": sorted(pokemon_out, key=lambda p: p["id"]),
@@ -395,6 +397,46 @@ def main():
     print(f"Wrote {OUTPUT}")
     print(f"  pokemon: {len(pokemon_out)}")
     print(f"  abilities: {len(abilities_out)}")
+
+    bump_service_worker_version(generated_at)
+
+
+def bump_service_worker_version(generated_at):
+    """Rewrite the CACHE_VERSION constant in docs/service-worker.js.
+
+    The SW caches static assets (HTML/JS/CSS/icons) under this name and
+    drops any cache that doesn't match on activate. Bumping it on every
+    rebuild forces installed PWAs to discard the stale shell cache the
+    next time they hit the network — without us having to remember to
+    bump anything by hand.
+
+    data.json itself is fetched network-first inside the SW (see
+    docs/service-worker.js), so its updates ship without needing the
+    version to roll. We still bump on every build so any incidental
+    change to the shell (a new ability listed, a tweaked CSS file, etc.)
+    propagates correctly.
+    """
+    if not SW_PATH.exists():
+        print(f"  WARN: {SW_PATH} not found, skipping SW version bump",
+              file=sys.stderr)
+        return
+    new_version = "frlg-" + generated_at.replace(":", "-")
+    sw_text = SW_PATH.read_text(encoding="utf-8")
+    sw_new, n = re.subn(
+        r"const CACHE_VERSION = '[^']*';",
+        f"const CACHE_VERSION = '{new_version}';",
+        sw_text,
+        count=1,
+    )
+    if n != 1:
+        print("  WARN: CACHE_VERSION line not found in service-worker.js; "
+              "the SW will keep serving the old shell cache",
+              file=sys.stderr)
+        return
+    if sw_new == sw_text:
+        return  # version already current (e.g. rebuild within same second)
+    SW_PATH.write_text(sw_new, encoding="utf-8")
+    print(f"Bumped SW CACHE_VERSION -> {new_version}")
 
 
 if __name__ == "__main__":
