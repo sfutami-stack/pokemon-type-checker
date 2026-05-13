@@ -13,7 +13,7 @@
 
 // Bumped automatically by build_data.py on every rebuild. Do not edit by
 // hand unless you know what you're doing.
-const CACHE_VERSION = 'frlg-2026-05-10T06-02-37Z';
+const CACHE_VERSION = 'frlg-2026-05-13T19-33-02Z';
 
 const STATIC_ASSETS = [
   './',

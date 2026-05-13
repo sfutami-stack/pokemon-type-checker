@@ -174,6 +174,25 @@ function renderResult(p) {
   $('poke-id').textContent = `#${String(p.id).padStart(3, '0')}`;
   $('poke-name').textContent = p.name_ja;
 
+  // English line (name + katakana reading + speak button). If we have no
+  // English name at all, hide the whole line. If we have a name but no
+  // katakana, drop the parenthesized reading.
+  const enWrap = $('poke-english');
+  if (p.name_en) {
+    $('poke-en-name').textContent = p.name_en;
+    const kanaWrap = $('poke-en-kana-wrap');
+    if (p.name_en_katakana) {
+      $('poke-en-kana').textContent = p.name_en_katakana;
+      kanaWrap.hidden = false;
+    } else {
+      kanaWrap.hidden = true;
+    }
+    enWrap.dataset.en = p.name_en;
+    enWrap.hidden = false;
+  } else {
+    enWrap.hidden = true;
+  }
+
   const typesEl = $('poke-types');
   typesEl.innerHTML = '';
   for (const t of p.types) typesEl.appendChild(typeBadge(t));
@@ -220,6 +239,25 @@ function renderResult(p) {
 
   // Scroll the result into view on mobile so it's visible after typing
   $('result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+
+// --- English pronunciation (Web Speech API) ----------------------------
+// Uses the browser's built-in TTS so the app stays fully offline and we
+// never have to ship audio files or hit a paid endpoint. Feature-detect
+// at startup; if speechSynthesis isn't available we hide the 🔊 button
+// rather than leave a dead control on the page.
+const SPEECH_OK = typeof window !== 'undefined'
+  && 'speechSynthesis' in window
+  && typeof SpeechSynthesisUtterance !== 'undefined';
+
+function speakEnglish(text) {
+  if (!SPEECH_OK || !text) return;
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.85;  // slightly slow for learning use
+  speechSynthesis.cancel();
+  speechSynthesis.speak(u);
 }
 
 
@@ -277,6 +315,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const input = $('q');
   const clearBtn = $('clear');
+  const speakBtn = $('speak-btn');
+
+  // Hide 🔊 entirely on browsers without TTS support; otherwise wire it
+  // to read out the currently displayed English name.
+  if (!SPEECH_OK) {
+    speakBtn.hidden = true;
+  } else {
+    speakBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      speakEnglish($('poke-english').dataset.en || '');
+    });
+  }
 
   input.addEventListener('input', (e) => {
     const v = e.target.value;

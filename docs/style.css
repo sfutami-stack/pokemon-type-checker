@@ -187,6 +187,41 @@ main {
   font-size: 1.4rem;
   font-weight: 700;
 }
+.english-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+  margin: -2px 0 10px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+.english-line .en-name {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.english-line .en-kana-wrap {
+  font-size: 0.85em;
+}
+.speak-btn {
+  margin-left: 2px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 6px 10px;
+  background: transparent;
+  border: none;
+  border-radius: 999px;
+  font-size: 1.15rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--text);
+  -webkit-tap-highlight-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.speak-btn:active { background: rgba(0, 0, 0, 0.06); }
 .badges {
   display: flex;
   flex-wrap: wrap;

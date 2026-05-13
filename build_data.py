@@ -16,6 +16,11 @@ Scope (per spec):
     Encounter data on PokeAPI is incomplete for FRLG (e.g. Hoothoot,
     Sunkern, Sudowoodo are wild in-game but absent), so we don't gate on
     it here.
+  - FRLG event-distribution Gen 3 (4 species): 380 Latias / 381 Latios
+    (Eon Ticket -> Southern Island), 385 Jirachi (Colosseum / Pokemon
+    Channel bonus disc), 386 Deoxys (Aurora Ticket -> Birth Island).
+    Other Gen 3 mons (Kyogre/Groudon/Rayquaza etc.) are R/S/E distribution
+    and intentionally excluded.
   - Abilities are reconstructed to Gen 3 state by applying PokeAPI's
     past_abilities overrides on top of the current ability list, then
     dropping hidden slots (added in Gen 5) and any slot that resolves to
@@ -36,6 +41,7 @@ ROOT = Path(__file__).resolve().parent
 CACHE_DIR = ROOT / ".cache"
 OUTPUT = ROOT / "docs" / "data.json"
 SW_PATH = ROOT / "docs" / "service-worker.js"
+KATAKANA_READINGS = ROOT / "katakana_readings.json"
 POKEAPI = "https://pokeapi.co/api/v2"
 HEADERS = {"User-Agent": "frlg-type-tool/1.0 (personal use)"}
 
@@ -184,6 +190,14 @@ def japanese_name(species):
         elif lang == "ja":
             name_ja = n["name"]
     return name_jhrkt or name_ja
+
+
+def english_name(species):
+    """Pokemon English display name from species.names (language='en')."""
+    for n in species["names"]:
+        if n["language"]["name"] == "en":
+            return n["name"]
+    return None
 
 
 # Ordered preference for ability flavor text. FRLG-era first, then nearby
@@ -336,10 +350,35 @@ def japanese_ability_name(ability):
 
 
 # --- Main build ----------------------------------------------------------
+def load_katakana_readings():
+    """Hand-curated English -> Katakana map for pronunciation display.
+
+    Keys are exact English Pokemon names as returned by PokeAPI (case +
+    punctuation preserved, e.g. 'Mr. Mime', 'Ho-Oh', 'Farfetch’d').
+    Missing keys are not a build error; the affected Pokemon get an empty
+    `name_en_katakana` and the frontend falls back to hiding the reading.
+    """
+    if not KATAKANA_READINGS.exists():
+        print(f"  WARN: {KATAKANA_READINGS} not found; "
+              "name_en_katakana will be empty for all Pokemon",
+              file=sys.stderr)
+        return {}
+    return json.loads(KATAKANA_READINGS.read_text(encoding="utf-8"))
+
+
 def main():
-    # Kanto 151 + all FRLG-obtainable Gen 2 (everything except Johto starters).
-    pokemon_ids = list(range(1, 152)) + list(range(161, 252))
+    # Kanto 151 + all FRLG-obtainable Gen 2 (everything except Johto starters)
+    # + FRLG event-distribution Gen 3 (Latias/Latios/Jirachi/Deoxys).
+    pokemon_ids = (
+        list(range(1, 152))
+        + list(range(161, 252))
+        + [380, 381, 385, 386]
+    )
     print(f"Total Pokemon to fetch: {len(pokemon_ids)}")
+
+    katakana_map = load_katakana_readings()
+    print(f"Katakana readings loaded: {len(katakana_map)} entries")
+    katakana_unused = set(katakana_map.keys())
 
     pokemon_out = []
     ability_keys = set()
@@ -351,6 +390,14 @@ def main():
         if not name_ja:
             print(f"  WARN: no Japanese name for id {pid}", file=sys.stderr)
             continue
+        name_en = english_name(species)
+        if not name_en:
+            print(f"  WARN: no English name for id {pid}", file=sys.stderr)
+        name_en_katakana = katakana_map.get(name_en or "", "")
+        if name_en and not name_en_katakana:
+            print(f"  WARN: no katakana reading for {name_en!r} (id {pid})",
+                  file=sys.stderr)
+        katakana_unused.discard(name_en)
 
         types = gen3_types(poke)
 
@@ -361,11 +408,18 @@ def main():
             "id": pid,
             "name_ja": name_ja,
             "name_hira": kata_to_hira(name_ja),
+            "name_en": name_en,
+            "name_en_katakana": name_en_katakana,
             "types": types,
             "abilities": abilities,
         })
         if i % 25 == 0 or i == len(pokemon_ids):
             print(f"  Pokemon {i}/{len(pokemon_ids)} processed")
+
+    if katakana_unused:
+        print(f"  WARN: {len(katakana_unused)} katakana key(s) in "
+              f"{KATAKANA_READINGS.name} did not match any Pokemon: "
+              f"{sorted(katakana_unused)}", file=sys.stderr)
 
     print(f"Building ability dictionary ({len(ability_keys)} unique)...")
     abilities_out = {}

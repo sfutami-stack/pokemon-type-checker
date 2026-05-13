@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-05-10T06:02:37Z",
+  "generated_at": "2026-05-13T19:33:02Z",
   "types": {
     "normal": {
       "it": "NORMALE",
@@ -418,6 +418,8 @@
       "id": 1,
       "name_ja": "フシギダネ",
       "name_hira": "ふしぎだね",
+      "name_en": "Bulbasaur",
+      "name_en_katakana": "バルバソー",
       "types": [
         "grass",
         "poison"
@@ -430,6 +432,8 @@
       "id": 2,
       "name_ja": "フシギソウ",
       "name_hira": "ふしぎそう",
+      "name_en": "Ivysaur",
+      "name_en_katakana": "アイヴィソー",
       "types": [
         "grass",
         "poison"
@@ -442,6 +446,8 @@
       "id": 3,
       "name_ja": "フシギバナ",
       "name_hira": "ふしぎばな",
+      "name_en": "Venusaur",
+      "name_en_katakana": "ヴィーナソー",
       "types": [
         "grass",
         "poison"
@@ -454,6 +460,8 @@
       "id": 4,
       "name_ja": "ヒトカゲ",
       "name_hira": "ひとかげ",
+      "name_en": "Charmander",
+      "name_en_katakana": "チャーマンダー",
       "types": [
         "fire"
       ],
@@ -465,6 +473,8 @@
       "id": 5,
       "name_ja": "リザード",
       "name_hira": "りざーど",
+      "name_en": "Charmeleon",
+      "name_en_katakana": "チャーミリオン",
       "types": [
         "fire"
       ],
@@ -476,6 +486,8 @@
       "id": 6,
       "name_ja": "リザードン",
       "name_hira": "りざーどん",
+      "name_en": "Charizard",
+      "name_en_katakana": "チャリザード",
       "types": [
         "fire",
         "flying"
@@ -488,6 +500,8 @@
       "id": 7,
       "name_ja": "ゼニガメ",
       "name_hira": "ぜにがめ",
+      "name_en": "Squirtle",
+      "name_en_katakana": "スクワートル",
       "types": [
         "water"
       ],
@@ -499,6 +513,8 @@
       "id": 8,
       "name_ja": "カメール",
       "name_hira": "かめーる",
+      "name_en": "Wartortle",
+      "name_en_katakana": "ウォートートル",
       "types": [
         "water"
       ],
@@ -510,6 +526,8 @@
       "id": 9,
       "name_ja": "カメックス",
       "name_hira": "かめっくす",
+      "name_en": "Blastoise",
+      "name_en_katakana": "ブラストイズ",
       "types": [
         "water"
       ],
@@ -521,6 +539,8 @@
       "id": 10,
       "name_ja": "キャタピー",
       "name_hira": "きゃたぴー",
+      "name_en": "Caterpie",
+      "name_en_katakana": "キャタピー",
       "types": [
         "bug"
       ],
@@ -532,6 +552,8 @@
       "id": 11,
       "name_ja": "トランセル",
       "name_hira": "とらんせる",
+      "name_en": "Metapod",
+      "name_en_katakana": "メタポッド",
       "types": [
         "bug"
       ],
@@ -543,6 +565,8 @@
       "id": 12,
       "name_ja": "バタフリー",
       "name_hira": "ばたふりー",
+      "name_en": "Butterfree",
+      "name_en_katakana": "バターフリー",
       "types": [
         "bug",
         "flying"
@@ -555,6 +579,8 @@
       "id": 13,
       "name_ja": "ビードル",
       "name_hira": "びーどる",
+      "name_en": "Weedle",
+      "name_en_katakana": "ウィードル",
       "types": [
         "bug",
         "poison"
@@ -567,6 +593,8 @@
       "id": 14,
       "name_ja": "コクーン",
       "name_hira": "こくーん",
+      "name_en": "Kakuna",
+      "name_en_katakana": "カクーナ",
       "types": [
         "bug",
         "poison"
@@ -579,6 +607,8 @@
       "id": 15,
       "name_ja": "スピアー",
       "name_hira": "すぴあー",
+      "name_en": "Beedrill",
+      "name_en_katakana": "ビードリル",
       "types": [
         "bug",
         "poison"
@@ -591,6 +621,8 @@
       "id": 16,
       "name_ja": "ポッポ",
       "name_hira": "ぽっぽ",
+      "name_en": "Pidgey",
+      "name_en_katakana": "ピジー",
       "types": [
         "normal",
         "flying"
@@ -603,6 +635,8 @@
       "id": 17,
       "name_ja": "ピジョン",
       "name_hira": "ぴじょん",
+      "name_en": "Pidgeotto",
+      "name_en_katakana": "ピジーオットー",
       "types": [
         "normal",
         "flying"
@@ -615,6 +649,8 @@
       "id": 18,
       "name_ja": "ピジョット",
       "name_hira": "ぴじょっと",
+      "name_en": "Pidgeot",
+      "name_en_katakana": "ピジオット",
       "types": [
         "normal",
         "flying"
@@ -627,6 +663,8 @@
       "id": 19,
       "name_ja": "コラッタ",
       "name_hira": "こらった",
+      "name_en": "Rattata",
+      "name_en_katakana": "ラタータ",
       "types": [
         "normal"
       ],
@@ -639,6 +677,8 @@
       "id": 20,
       "name_ja": "ラッタ",
       "name_hira": "らった",
+      "name_en": "Raticate",
+      "name_en_katakana": "ラティケイト",
       "types": [
         "normal"
       ],
@@ -651,6 +691,8 @@
       "id": 21,
       "name_ja": "オニスズメ",
       "name_hira": "おにすずめ",
+      "name_en": "Spearow",
+      "name_en_katakana": "スピロー",
       "types": [
         "normal",
         "flying"
@@ -663,6 +705,8 @@
       "id": 22,
       "name_ja": "オニドリル",
       "name_hira": "おにどりる",
+      "name_en": "Fearow",
+      "name_en_katakana": "フィロー",
       "types": [
         "normal",
         "flying"
@@ -675,6 +719,8 @@
       "id": 23,
       "name_ja": "アーボ",
       "name_hira": "あーぼ",
+      "name_en": "Ekans",
+      "name_en_katakana": "イーカンズ",
       "types": [
         "poison"
       ],
@@ -687,6 +733,8 @@
       "id": 24,
       "name_ja": "アーボック",
       "name_hira": "あーぼっく",
+      "name_en": "Arbok",
+      "name_en_katakana": "アーボック",
       "types": [
         "poison"
       ],
@@ -699,6 +747,8 @@
       "id": 25,
       "name_ja": "ピカチュウ",
       "name_hira": "ぴかちゅう",
+      "name_en": "Pikachu",
+      "name_en_katakana": "ピカチュー",
       "types": [
         "electric"
       ],
@@ -710,6 +760,8 @@
       "id": 26,
       "name_ja": "ライチュウ",
       "name_hira": "らいちゅう",
+      "name_en": "Raichu",
+      "name_en_katakana": "ライチュー",
       "types": [
         "electric"
       ],
@@ -721,6 +773,8 @@
       "id": 27,
       "name_ja": "サンド",
       "name_hira": "さんど",
+      "name_en": "Sandshrew",
+      "name_en_katakana": "サンドシュルー",
       "types": [
         "ground"
       ],
@@ -732,6 +786,8 @@
       "id": 28,
       "name_ja": "サンドパン",
       "name_hira": "さんどぱん",
+      "name_en": "Sandslash",
+      "name_en_katakana": "サンドスラッシュ",
       "types": [
         "ground"
       ],
@@ -743,6 +799,8 @@
       "id": 29,
       "name_ja": "ニドラン♀",
       "name_hira": "にどらん♀",
+      "name_en": "Nidoran♀",
+      "name_en_katakana": "ニードラン",
       "types": [
         "poison"
       ],
@@ -754,6 +812,8 @@
       "id": 30,
       "name_ja": "ニドリーナ",
       "name_hira": "にどりーな",
+      "name_en": "Nidorina",
+      "name_en_katakana": "ニードリーナ",
       "types": [
         "poison"
       ],
@@ -765,6 +825,8 @@
       "id": 31,
       "name_ja": "ニドクイン",
       "name_hira": "にどくいん",
+      "name_en": "Nidoqueen",
+      "name_en_katakana": "ニードクイーン",
       "types": [
         "poison",
         "ground"
@@ -777,6 +839,8 @@
       "id": 32,
       "name_ja": "ニドラン♂",
       "name_hira": "にどらん♂",
+      "name_en": "Nidoran♂",
+      "name_en_katakana": "ニードラン",
       "types": [
         "poison"
       ],
@@ -788,6 +852,8 @@
       "id": 33,
       "name_ja": "ニドリーノ",
       "name_hira": "にどりーの",
+      "name_en": "Nidorino",
+      "name_en_katakana": "ニードリーノ",
       "types": [
         "poison"
       ],
@@ -799,6 +865,8 @@
       "id": 34,
       "name_ja": "ニドキング",
       "name_hira": "にどきんぐ",
+      "name_en": "Nidoking",
+      "name_en_katakana": "ニードキング",
       "types": [
         "poison",
         "ground"
@@ -811,6 +879,8 @@
       "id": 35,
       "name_ja": "ピッピ",
       "name_hira": "ぴっぴ",
+      "name_en": "Clefairy",
+      "name_en_katakana": "クレフェアリー",
       "types": [
         "normal"
       ],
@@ -822,6 +892,8 @@
       "id": 36,
       "name_ja": "ピクシー",
       "name_hira": "ぴくしー",
+      "name_en": "Clefable",
+      "name_en_katakana": "クレフェイブル",
       "types": [
         "normal"
       ],
@@ -833,6 +905,8 @@
       "id": 37,
       "name_ja": "ロコン",
       "name_hira": "ろこん",
+      "name_en": "Vulpix",
+      "name_en_katakana": "ヴァルピックス",
       "types": [
         "fire"
       ],
@@ -844,6 +918,8 @@
       "id": 38,
       "name_ja": "キュウコン",
       "name_hira": "きゅうこん",
+      "name_en": "Ninetales",
+      "name_en_katakana": "ナインテイルズ",
       "types": [
         "fire"
       ],
@@ -855,6 +931,8 @@
       "id": 39,
       "name_ja": "プリン",
       "name_hira": "ぷりん",
+      "name_en": "Jigglypuff",
+      "name_en_katakana": "ジグリーパフ",
       "types": [
         "normal"
       ],
@@ -866,6 +944,8 @@
       "id": 40,
       "name_ja": "プクリン",
       "name_hira": "ぷくりん",
+      "name_en": "Wigglytuff",
+      "name_en_katakana": "ウィグリータフ",
       "types": [
         "normal"
       ],
@@ -877,6 +957,8 @@
       "id": 41,
       "name_ja": "ズバット",
       "name_hira": "ずばっと",
+      "name_en": "Zubat",
+      "name_en_katakana": "ズーバット",
       "types": [
         "poison",
         "flying"
@@ -889,6 +971,8 @@
       "id": 42,
       "name_ja": "ゴルバット",
       "name_hira": "ごるばっと",
+      "name_en": "Golbat",
+      "name_en_katakana": "ゴルバット",
       "types": [
         "poison",
         "flying"
@@ -901,6 +985,8 @@
       "id": 43,
       "name_ja": "ナゾノクサ",
       "name_hira": "なぞのくさ",
+      "name_en": "Oddish",
+      "name_en_katakana": "オディッシュ",
       "types": [
         "grass",
         "poison"
@@ -913,6 +999,8 @@
       "id": 44,
       "name_ja": "クサイハナ",
       "name_hira": "くさいはな",
+      "name_en": "Gloom",
+      "name_en_katakana": "グルーム",
       "types": [
         "grass",
         "poison"
@@ -925,6 +1013,8 @@
       "id": 45,
       "name_ja": "ラフレシア",
       "name_hira": "らふれしあ",
+      "name_en": "Vileplume",
+      "name_en_katakana": "ヴァイルプルーム",
       "types": [
         "grass",
         "poison"
@@ -937,6 +1027,8 @@
       "id": 46,
       "name_ja": "パラス",
       "name_hira": "ぱらす",
+      "name_en": "Paras",
+      "name_en_katakana": "パラス",
       "types": [
         "bug",
         "grass"
@@ -949,6 +1041,8 @@
       "id": 47,
       "name_ja": "パラセクト",
       "name_hira": "ぱらせくと",
+      "name_en": "Parasect",
+      "name_en_katakana": "パラセクト",
       "types": [
         "bug",
         "grass"
@@ -961,6 +1055,8 @@
       "id": 48,
       "name_ja": "コンパン",
       "name_hira": "こんぱん",
+      "name_en": "Venonat",
+      "name_en_katakana": "ヴェノナット",
       "types": [
         "bug",
         "poison"
@@ -973,6 +1069,8 @@
       "id": 49,
       "name_ja": "モルフォン",
       "name_hira": "もるふぉん",
+      "name_en": "Venomoth",
+      "name_en_katakana": "ヴェノモス",
       "types": [
         "bug",
         "poison"
@@ -985,6 +1083,8 @@
       "id": 50,
       "name_ja": "ディグダ",
       "name_hira": "でぃぐだ",
+      "name_en": "Diglett",
+      "name_en_katakana": "ディグレット",
       "types": [
         "ground"
       ],
@@ -997,6 +1097,8 @@
       "id": 51,
       "name_ja": "ダグトリオ",
       "name_hira": "だぐとりお",
+      "name_en": "Dugtrio",
+      "name_en_katakana": "ダグトリオ",
       "types": [
         "ground"
       ],
@@ -1009,6 +1111,8 @@
       "id": 52,
       "name_ja": "ニャース",
       "name_hira": "にゃーす",
+      "name_en": "Meowth",
+      "name_en_katakana": "ミアウス",
       "types": [
         "normal"
       ],
@@ -1020,6 +1124,8 @@
       "id": 53,
       "name_ja": "ペルシアン",
       "name_hira": "ぺるしあん",
+      "name_en": "Persian",
+      "name_en_katakana": "パージャン",
       "types": [
         "normal"
       ],
@@ -1031,6 +1137,8 @@
       "id": 54,
       "name_ja": "コダック",
       "name_hira": "こだっく",
+      "name_en": "Psyduck",
+      "name_en_katakana": "サイダック",
       "types": [
         "water"
       ],
@@ -1043,6 +1151,8 @@
       "id": 55,
       "name_ja": "ゴルダック",
       "name_hira": "ごるだっく",
+      "name_en": "Golduck",
+      "name_en_katakana": "ゴールダック",
       "types": [
         "water"
       ],
@@ -1055,6 +1165,8 @@
       "id": 56,
       "name_ja": "マンキー",
       "name_hira": "まんきー",
+      "name_en": "Mankey",
+      "name_en_katakana": "マンキー",
       "types": [
         "fighting"
       ],
@@ -1066,6 +1178,8 @@
       "id": 57,
       "name_ja": "オコリザル",
       "name_hira": "おこりざる",
+      "name_en": "Primeape",
+      "name_en_katakana": "プライムエイプ",
       "types": [
         "fighting"
       ],
@@ -1077,6 +1191,8 @@
       "id": 58,
       "name_ja": "ガーディ",
       "name_hira": "がーでぃ",
+      "name_en": "Growlithe",
+      "name_en_katakana": "グラウリス",
       "types": [
         "fire"
       ],
@@ -1089,6 +1205,8 @@
       "id": 59,
       "name_ja": "ウインディ",
       "name_hira": "ういんでぃ",
+      "name_en": "Arcanine",
+      "name_en_katakana": "アーカナイン",
       "types": [
         "fire"
       ],
@@ -1101,6 +1219,8 @@
       "id": 60,
       "name_ja": "ニョロモ",
       "name_hira": "にょろも",
+      "name_en": "Poliwag",
+      "name_en_katakana": "ポリワグ",
       "types": [
         "water"
       ],
@@ -1113,6 +1233,8 @@
       "id": 61,
       "name_ja": "ニョロゾ",
       "name_hira": "にょろぞ",
+      "name_en": "Poliwhirl",
+      "name_en_katakana": "ポリワール",
       "types": [
         "water"
       ],
@@ -1125,6 +1247,8 @@
       "id": 62,
       "name_ja": "ニョロボン",
       "name_hira": "にょろぼん",
+      "name_en": "Poliwrath",
+      "name_en_katakana": "ポリラス",
       "types": [
         "water",
         "fighting"
@@ -1138,6 +1262,8 @@
       "id": 63,
       "name_ja": "ケーシィ",
       "name_hira": "けーしぃ",
+      "name_en": "Abra",
+      "name_en_katakana": "アブラ",
       "types": [
         "psychic"
       ],
@@ -1150,6 +1276,8 @@
       "id": 64,
       "name_ja": "ユンゲラー",
       "name_hira": "ゆんげらー",
+      "name_en": "Kadabra",
+      "name_en_katakana": "カダブラ",
       "types": [
         "psychic"
       ],
@@ -1162,6 +1290,8 @@
       "id": 65,
       "name_ja": "フーディン",
       "name_hira": "ふーでぃん",
+      "name_en": "Alakazam",
+      "name_en_katakana": "アラカザム",
       "types": [
         "psychic"
       ],
@@ -1174,6 +1304,8 @@
       "id": 66,
       "name_ja": "ワンリキー",
       "name_hira": "わんりきー",
+      "name_en": "Machop",
+      "name_en_katakana": "マチョップ",
       "types": [
         "fighting"
       ],
@@ -1185,6 +1317,8 @@
       "id": 67,
       "name_ja": "ゴーリキー",
       "name_hira": "ごーりきー",
+      "name_en": "Machoke",
+      "name_en_katakana": "マチョーク",
       "types": [
         "fighting"
       ],
@@ -1196,6 +1330,8 @@
       "id": 68,
       "name_ja": "カイリキー",
       "name_hira": "かいりきー",
+      "name_en": "Machamp",
+      "name_en_katakana": "マチャンプ",
       "types": [
         "fighting"
       ],
@@ -1207,6 +1343,8 @@
       "id": 69,
       "name_ja": "マダツボミ",
       "name_hira": "まだつぼみ",
+      "name_en": "Bellsprout",
+      "name_en_katakana": "ベルスプラウト",
       "types": [
         "grass",
         "poison"
@@ -1219,6 +1357,8 @@
       "id": 70,
       "name_ja": "ウツドン",
       "name_hira": "うつどん",
+      "name_en": "Weepinbell",
+      "name_en_katakana": "ウィーピンベル",
       "types": [
         "grass",
         "poison"
@@ -1231,6 +1371,8 @@
       "id": 71,
       "name_ja": "ウツボット",
       "name_hira": "うつぼっと",
+      "name_en": "Victreebel",
+      "name_en_katakana": "ヴィクトリーベル",
       "types": [
         "grass",
         "poison"
@@ -1243,6 +1385,8 @@
       "id": 72,
       "name_ja": "メノクラゲ",
       "name_hira": "めのくらげ",
+      "name_en": "Tentacool",
+      "name_en_katakana": "テンタクール",
       "types": [
         "water",
         "poison"
@@ -1256,6 +1400,8 @@
       "id": 73,
       "name_ja": "ドククラゲ",
       "name_hira": "どくくらげ",
+      "name_en": "Tentacruel",
+      "name_en_katakana": "テンタクルーエル",
       "types": [
         "water",
         "poison"
@@ -1269,6 +1415,8 @@
       "id": 74,
       "name_ja": "イシツブテ",
       "name_hira": "いしつぶて",
+      "name_en": "Geodude",
+      "name_en_katakana": "ジオデュード",
       "types": [
         "rock",
         "ground"
@@ -1282,6 +1430,8 @@
       "id": 75,
       "name_ja": "ゴローン",
       "name_hira": "ごろーん",
+      "name_en": "Graveler",
+      "name_en_katakana": "グラベラー",
       "types": [
         "rock",
         "ground"
@@ -1295,6 +1445,8 @@
       "id": 76,
       "name_ja": "ゴローニャ",
       "name_hira": "ごろーにゃ",
+      "name_en": "Golem",
+      "name_en_katakana": "ゴーレム",
       "types": [
         "rock",
         "ground"
@@ -1308,6 +1460,8 @@
       "id": 77,
       "name_ja": "ポニータ",
       "name_hira": "ぽにーた",
+      "name_en": "Ponyta",
+      "name_en_katakana": "ポニータ",
       "types": [
         "fire"
       ],
@@ -1320,6 +1474,8 @@
       "id": 78,
       "name_ja": "ギャロップ",
       "name_hira": "ぎゃろっぷ",
+      "name_en": "Rapidash",
+      "name_en_katakana": "ラピダッシュ",
       "types": [
         "fire"
       ],
@@ -1332,6 +1488,8 @@
       "id": 79,
       "name_ja": "ヤドン",
       "name_hira": "やどん",
+      "name_en": "Slowpoke",
+      "name_en_katakana": "スローポーク",
       "types": [
         "water",
         "psychic"
@@ -1345,6 +1503,8 @@
       "id": 80,
       "name_ja": "ヤドラン",
       "name_hira": "やどらん",
+      "name_en": "Slowbro",
+      "name_en_katakana": "スローブロー",
       "types": [
         "water",
         "psychic"
@@ -1358,6 +1518,8 @@
       "id": 81,
       "name_ja": "コイル",
       "name_hira": "こいる",
+      "name_en": "Magnemite",
+      "name_en_katakana": "マグネマイト",
       "types": [
         "electric",
         "steel"
@@ -1371,6 +1533,8 @@
       "id": 82,
       "name_ja": "レアコイル",
       "name_hira": "れあこいる",
+      "name_en": "Magneton",
+      "name_en_katakana": "マグネトン",
       "types": [
         "electric",
         "steel"
@@ -1384,6 +1548,8 @@
       "id": 83,
       "name_ja": "カモネギ",
       "name_hira": "かもねぎ",
+      "name_en": "Farfetch’d",
+      "name_en_katakana": "ファーフェッチド",
       "types": [
         "normal",
         "flying"
@@ -1397,6 +1563,8 @@
       "id": 84,
       "name_ja": "ドードー",
       "name_hira": "どーどー",
+      "name_en": "Doduo",
+      "name_en_katakana": "ドードゥオー",
       "types": [
         "normal",
         "flying"
@@ -1410,6 +1578,8 @@
       "id": 85,
       "name_ja": "ドードリオ",
       "name_hira": "どーどりお",
+      "name_en": "Dodrio",
+      "name_en_katakana": "ドードリオ",
       "types": [
         "normal",
         "flying"
@@ -1423,6 +1593,8 @@
       "id": 86,
       "name_ja": "パウワウ",
       "name_hira": "ぱうわう",
+      "name_en": "Seel",
+      "name_en_katakana": "シール",
       "types": [
         "water"
       ],
@@ -1434,6 +1606,8 @@
       "id": 87,
       "name_ja": "ジュゴン",
       "name_hira": "じゅごん",
+      "name_en": "Dewgong",
+      "name_en_katakana": "デューゴング",
       "types": [
         "water",
         "ice"
@@ -1446,6 +1620,8 @@
       "id": 88,
       "name_ja": "ベトベター",
       "name_hira": "べとべたー",
+      "name_en": "Grimer",
+      "name_en_katakana": "グライマー",
       "types": [
         "poison"
       ],
@@ -1458,6 +1634,8 @@
       "id": 89,
       "name_ja": "ベトベトン",
       "name_hira": "べとべとん",
+      "name_en": "Muk",
+      "name_en_katakana": "マック",
       "types": [
         "poison"
       ],
@@ -1470,6 +1648,8 @@
       "id": 90,
       "name_ja": "シェルダー",
       "name_hira": "しぇるだー",
+      "name_en": "Shellder",
+      "name_en_katakana": "シェルダー",
       "types": [
         "water"
       ],
@@ -1481,6 +1661,8 @@
       "id": 91,
       "name_ja": "パルシェン",
       "name_hira": "ぱるしぇん",
+      "name_en": "Cloyster",
+      "name_en_katakana": "クロイスター",
       "types": [
         "water",
         "ice"
@@ -1493,6 +1675,8 @@
       "id": 92,
       "name_ja": "ゴース",
       "name_hira": "ごーす",
+      "name_en": "Gastly",
+      "name_en_katakana": "ガストリー",
       "types": [
         "ghost",
         "poison"
@@ -1505,6 +1689,8 @@
       "id": 93,
       "name_ja": "ゴースト",
       "name_hira": "ごーすと",
+      "name_en": "Haunter",
+      "name_en_katakana": "ホーンター",
       "types": [
         "ghost",
         "poison"
@@ -1517,6 +1703,8 @@
       "id": 94,
       "name_ja": "ゲンガー",
       "name_hira": "げんがー",
+      "name_en": "Gengar",
+      "name_en_katakana": "ゲンガー",
       "types": [
         "ghost",
         "poison"
@@ -1529,6 +1717,8 @@
       "id": 95,
       "name_ja": "イワーク",
       "name_hira": "いわーく",
+      "name_en": "Onix",
+      "name_en_katakana": "オニックス",
       "types": [
         "rock",
         "ground"
@@ -1542,6 +1732,8 @@
       "id": 96,
       "name_ja": "スリープ",
       "name_hira": "すりーぷ",
+      "name_en": "Drowzee",
+      "name_en_katakana": "ドラウジー",
       "types": [
         "psychic"
       ],
@@ -1553,6 +1745,8 @@
       "id": 97,
       "name_ja": "スリーパー",
       "name_hira": "すりーぱー",
+      "name_en": "Hypno",
+      "name_en_katakana": "ヒプノ",
       "types": [
         "psychic"
       ],
@@ -1564,6 +1758,8 @@
       "id": 98,
       "name_ja": "クラブ",
       "name_hira": "くらぶ",
+      "name_en": "Krabby",
+      "name_en_katakana": "クラビー",
       "types": [
         "water"
       ],
@@ -1576,6 +1772,8 @@
       "id": 99,
       "name_ja": "キングラー",
       "name_hira": "きんぐらー",
+      "name_en": "Kingler",
+      "name_en_katakana": "キングラー",
       "types": [
         "water"
       ],
@@ -1588,6 +1786,8 @@
       "id": 100,
       "name_ja": "ビリリダマ",
       "name_hira": "びりりだま",
+      "name_en": "Voltorb",
+      "name_en_katakana": "ヴォルトーブ",
       "types": [
         "electric"
       ],
@@ -1600,6 +1800,8 @@
       "id": 101,
       "name_ja": "マルマイン",
       "name_hira": "まるまいん",
+      "name_en": "Electrode",
+      "name_en_katakana": "エレクトロード",
       "types": [
         "electric"
       ],
@@ -1612,6 +1814,8 @@
       "id": 102,
       "name_ja": "タマタマ",
       "name_hira": "たまたま",
+      "name_en": "Exeggcute",
+      "name_en_katakana": "エクセグキュート",
       "types": [
         "grass",
         "psychic"
@@ -1624,6 +1828,8 @@
       "id": 103,
       "name_ja": "ナッシー",
       "name_hira": "なっしー",
+      "name_en": "Exeggutor",
+      "name_en_katakana": "エクセギューター",
       "types": [
         "grass",
         "psychic"
@@ -1636,6 +1842,8 @@
       "id": 104,
       "name_ja": "カラカラ",
       "name_hira": "からから",
+      "name_en": "Cubone",
+      "name_en_katakana": "キューボーン",
       "types": [
         "ground"
       ],
@@ -1648,6 +1856,8 @@
       "id": 105,
       "name_ja": "ガラガラ",
       "name_hira": "がらがら",
+      "name_en": "Marowak",
+      "name_en_katakana": "マロワック",
       "types": [
         "ground"
       ],
@@ -1660,6 +1870,8 @@
       "id": 106,
       "name_ja": "サワムラー",
       "name_hira": "さわむらー",
+      "name_en": "Hitmonlee",
+      "name_en_katakana": "ヒットモンリー",
       "types": [
         "fighting"
       ],
@@ -1671,6 +1883,8 @@
       "id": 107,
       "name_ja": "エビワラー",
       "name_hira": "えびわらー",
+      "name_en": "Hitmonchan",
+      "name_en_katakana": "ヒットモンチャン",
       "types": [
         "fighting"
       ],
@@ -1682,6 +1896,8 @@
       "id": 108,
       "name_ja": "ベロリンガ",
       "name_hira": "べろりんが",
+      "name_en": "Lickitung",
+      "name_en_katakana": "リキタング",
       "types": [
         "normal"
       ],
@@ -1694,6 +1910,8 @@
       "id": 109,
       "name_ja": "ドガース",
       "name_hira": "どがーす",
+      "name_en": "Koffing",
+      "name_en_katakana": "コフィング",
       "types": [
         "poison"
       ],
@@ -1705,6 +1923,8 @@
       "id": 110,
       "name_ja": "マタドガス",
       "name_hira": "またどがす",
+      "name_en": "Weezing",
+      "name_en_katakana": "ウィージング",
       "types": [
         "poison"
       ],
@@ -1716,6 +1936,8 @@
       "id": 111,
       "name_ja": "サイホーン",
       "name_hira": "さいほーん",
+      "name_en": "Rhyhorn",
+      "name_en_katakana": "ライホーン",
       "types": [
         "ground",
         "rock"
@@ -1729,6 +1951,8 @@
       "id": 112,
       "name_ja": "サイドン",
       "name_hira": "さいどん",
+      "name_en": "Rhydon",
+      "name_en_katakana": "ライドン",
       "types": [
         "ground",
         "rock"
@@ -1742,6 +1966,8 @@
       "id": 113,
       "name_ja": "ラッキー",
       "name_hira": "らっきー",
+      "name_en": "Chansey",
+      "name_en_katakana": "チャンシー",
       "types": [
         "normal"
       ],
@@ -1754,6 +1980,8 @@
       "id": 114,
       "name_ja": "モンジャラ",
       "name_hira": "もんじゃら",
+      "name_en": "Tangela",
+      "name_en_katakana": "タンジェラ",
       "types": [
         "grass"
       ],
@@ -1765,6 +1993,8 @@
       "id": 115,
       "name_ja": "ガルーラ",
       "name_hira": "がるーら",
+      "name_en": "Kangaskhan",
+      "name_en_katakana": "カンガスカン",
       "types": [
         "normal"
       ],
@@ -1776,6 +2006,8 @@
       "id": 116,
       "name_ja": "タッツー",
       "name_hira": "たっつー",
+      "name_en": "Horsea",
+      "name_en_katakana": "ホーシー",
       "types": [
         "water"
       ],
@@ -1787,6 +2019,8 @@
       "id": 117,
       "name_ja": "シードラ",
       "name_hira": "しーどら",
+      "name_en": "Seadra",
+      "name_en_katakana": "シードラ",
       "types": [
         "water"
       ],
@@ -1798,6 +2032,8 @@
       "id": 118,
       "name_ja": "トサキント",
       "name_hira": "とさきんと",
+      "name_en": "Goldeen",
+      "name_en_katakana": "ゴールディーン",
       "types": [
         "water"
       ],
@@ -1810,6 +2046,8 @@
       "id": 119,
       "name_ja": "アズマオウ",
       "name_hira": "あずまおう",
+      "name_en": "Seaking",
+      "name_en_katakana": "シーキング",
       "types": [
         "water"
       ],
@@ -1822,6 +2060,8 @@
       "id": 120,
       "name_ja": "ヒトデマン",
       "name_hira": "ひとでまん",
+      "name_en": "Staryu",
+      "name_en_katakana": "スターユ",
       "types": [
         "water"
       ],
@@ -1834,6 +2074,8 @@
       "id": 121,
       "name_ja": "スターミー",
       "name_hira": "すたーみー",
+      "name_en": "Starmie",
+      "name_en_katakana": "スターミー",
       "types": [
         "water",
         "psychic"
@@ -1847,6 +2089,8 @@
       "id": 122,
       "name_ja": "バリヤード",
       "name_hira": "ばりやーど",
+      "name_en": "Mr. Mime",
+      "name_en_katakana": "ミスター・マイム",
       "types": [
         "psychic"
       ],
@@ -1858,6 +2102,8 @@
       "id": 123,
       "name_ja": "ストライク",
       "name_hira": "すとらいく",
+      "name_en": "Scyther",
+      "name_en_katakana": "サイザー",
       "types": [
         "bug",
         "flying"
@@ -1870,6 +2116,8 @@
       "id": 124,
       "name_ja": "ルージュラ",
       "name_hira": "るーじゅら",
+      "name_en": "Jynx",
+      "name_en_katakana": "ジンクス",
       "types": [
         "ice",
         "psychic"
@@ -1882,6 +2130,8 @@
       "id": 125,
       "name_ja": "エレブー",
       "name_hira": "えれぶー",
+      "name_en": "Electabuzz",
+      "name_en_katakana": "エレクタバズ",
       "types": [
         "electric"
       ],
@@ -1893,6 +2143,8 @@
       "id": 126,
       "name_ja": "ブーバー",
       "name_hira": "ぶーばー",
+      "name_en": "Magmar",
+      "name_en_katakana": "マグマー",
       "types": [
         "fire"
       ],
@@ -1904,6 +2156,8 @@
       "id": 127,
       "name_ja": "カイロス",
       "name_hira": "かいろす",
+      "name_en": "Pinsir",
+      "name_en_katakana": "ピンサー",
       "types": [
         "bug"
       ],
@@ -1915,6 +2169,8 @@
       "id": 128,
       "name_ja": "ケンタロス",
       "name_hira": "けんたろす",
+      "name_en": "Tauros",
+      "name_en_katakana": "トーロス",
       "types": [
         "normal"
       ],
@@ -1926,6 +2182,8 @@
       "id": 129,
       "name_ja": "コイキング",
       "name_hira": "こいきんぐ",
+      "name_en": "Magikarp",
+      "name_en_katakana": "マジカープ",
       "types": [
         "water"
       ],
@@ -1937,6 +2195,8 @@
       "id": 130,
       "name_ja": "ギャラドス",
       "name_hira": "ぎゃらどす",
+      "name_en": "Gyarados",
+      "name_en_katakana": "ガラドス",
       "types": [
         "water",
         "flying"
@@ -1949,6 +2209,8 @@
       "id": 131,
       "name_ja": "ラプラス",
       "name_hira": "らぷらす",
+      "name_en": "Lapras",
+      "name_en_katakana": "ラプラス",
       "types": [
         "water",
         "ice"
@@ -1962,6 +2224,8 @@
       "id": 132,
       "name_ja": "メタモン",
       "name_hira": "めたもん",
+      "name_en": "Ditto",
+      "name_en_katakana": "ディトー",
       "types": [
         "normal"
       ],
@@ -1973,6 +2237,8 @@
       "id": 133,
       "name_ja": "イーブイ",
       "name_hira": "いーぶい",
+      "name_en": "Eevee",
+      "name_en_katakana": "イーヴィー",
       "types": [
         "normal"
       ],
@@ -1984,6 +2250,8 @@
       "id": 134,
       "name_ja": "シャワーズ",
       "name_hira": "しゃわーず",
+      "name_en": "Vaporeon",
+      "name_en_katakana": "ヴェイポリオン",
       "types": [
         "water"
       ],
@@ -1995,6 +2263,8 @@
       "id": 135,
       "name_ja": "サンダース",
       "name_hira": "さんだーす",
+      "name_en": "Jolteon",
+      "name_en_katakana": "ジョルティオン",
       "types": [
         "electric"
       ],
@@ -2006,6 +2276,8 @@
       "id": 136,
       "name_ja": "ブースター",
       "name_hira": "ぶーすたー",
+      "name_en": "Flareon",
+      "name_en_katakana": "フレリオン",
       "types": [
         "fire"
       ],
@@ -2017,6 +2289,8 @@
       "id": 137,
       "name_ja": "ポリゴン",
       "name_hira": "ぽりごん",
+      "name_en": "Porygon",
+      "name_en_katakana": "ポリゴン",
       "types": [
         "normal"
       ],
@@ -2028,6 +2302,8 @@
       "id": 138,
       "name_ja": "オムナイト",
       "name_hira": "おむないと",
+      "name_en": "Omanyte",
+      "name_en_katakana": "オーマナイト",
       "types": [
         "rock",
         "water"
@@ -2041,6 +2317,8 @@
       "id": 139,
       "name_ja": "オムスター",
       "name_hira": "おむすたー",
+      "name_en": "Omastar",
+      "name_en_katakana": "オーマスター",
       "types": [
         "rock",
         "water"
@@ -2054,6 +2332,8 @@
       "id": 140,
       "name_ja": "カブト",
       "name_hira": "かぶと",
+      "name_en": "Kabuto",
+      "name_en_katakana": "カブート",
       "types": [
         "rock",
         "water"
@@ -2067,6 +2347,8 @@
       "id": 141,
       "name_ja": "カブトプス",
       "name_hira": "かぶとぷす",
+      "name_en": "Kabutops",
+      "name_en_katakana": "カブートップス",
       "types": [
         "rock",
         "water"
@@ -2080,6 +2362,8 @@
       "id": 142,
       "name_ja": "プテラ",
       "name_hira": "ぷてら",
+      "name_en": "Aerodactyl",
+      "name_en_katakana": "エアロダクティル",
       "types": [
         "rock",
         "flying"
@@ -2093,6 +2377,8 @@
       "id": 143,
       "name_ja": "カビゴン",
       "name_hira": "かびごん",
+      "name_en": "Snorlax",
+      "name_en_katakana": "スノーラックス",
       "types": [
         "normal"
       ],
@@ -2105,6 +2391,8 @@
       "id": 144,
       "name_ja": "フリーザー",
       "name_hira": "ふりーざー",
+      "name_en": "Articuno",
+      "name_en_katakana": "アーティクーノ",
       "types": [
         "ice",
         "flying"
@@ -2117,6 +2405,8 @@
       "id": 145,
       "name_ja": "サンダー",
       "name_hira": "さんだー",
+      "name_en": "Zapdos",
+      "name_en_katakana": "ザプドス",
       "types": [
         "electric",
         "flying"
@@ -2129,6 +2419,8 @@
       "id": 146,
       "name_ja": "ファイヤー",
       "name_hira": "ふぁいやー",
+      "name_en": "Moltres",
+      "name_en_katakana": "モルトレス",
       "types": [
         "fire",
         "flying"
@@ -2141,6 +2433,8 @@
       "id": 147,
       "name_ja": "ミニリュウ",
       "name_hira": "みにりゅう",
+      "name_en": "Dratini",
+      "name_en_katakana": "ドラティーニ",
       "types": [
         "dragon"
       ],
@@ -2152,6 +2446,8 @@
       "id": 148,
       "name_ja": "ハクリュー",
       "name_hira": "はくりゅー",
+      "name_en": "Dragonair",
+      "name_en_katakana": "ドラゴンエア",
       "types": [
         "dragon"
       ],
@@ -2163,6 +2459,8 @@
       "id": 149,
       "name_ja": "カイリュー",
       "name_hira": "かいりゅー",
+      "name_en": "Dragonite",
+      "name_en_katakana": "ドラゴナイト",
       "types": [
         "dragon",
         "flying"
@@ -2175,6 +2473,8 @@
       "id": 150,
       "name_ja": "ミュウツー",
       "name_hira": "みゅうつー",
+      "name_en": "Mewtwo",
+      "name_en_katakana": "ミュートゥー",
       "types": [
         "psychic"
       ],
@@ -2186,6 +2486,8 @@
       "id": 151,
       "name_ja": "ミュウ",
       "name_hira": "みゅう",
+      "name_en": "Mew",
+      "name_en_katakana": "ミュー",
       "types": [
         "psychic"
       ],
@@ -2197,6 +2499,8 @@
       "id": 161,
       "name_ja": "オタチ",
       "name_hira": "おたち",
+      "name_en": "Sentret",
+      "name_en_katakana": "セントレット",
       "types": [
         "normal"
       ],
@@ -2209,6 +2513,8 @@
       "id": 162,
       "name_ja": "オオタチ",
       "name_hira": "おおたち",
+      "name_en": "Furret",
+      "name_en_katakana": "ファーレット",
       "types": [
         "normal"
       ],
@@ -2221,6 +2527,8 @@
       "id": 163,
       "name_ja": "ホーホー",
       "name_hira": "ほーほー",
+      "name_en": "Hoothoot",
+      "name_en_katakana": "フートフート",
       "types": [
         "normal",
         "flying"
@@ -2234,6 +2542,8 @@
       "id": 164,
       "name_ja": "ヨルノズク",
       "name_hira": "よるのずく",
+      "name_en": "Noctowl",
+      "name_en_katakana": "ノクタウル",
       "types": [
         "normal",
         "flying"
@@ -2247,6 +2557,8 @@
       "id": 165,
       "name_ja": "レディバ",
       "name_hira": "れでぃば",
+      "name_en": "Ledyba",
+      "name_en_katakana": "レディーバ",
       "types": [
         "bug",
         "flying"
@@ -2260,6 +2572,8 @@
       "id": 166,
       "name_ja": "レディアン",
       "name_hira": "れでぃあん",
+      "name_en": "Ledian",
+      "name_en_katakana": "レディアン",
       "types": [
         "bug",
         "flying"
@@ -2273,6 +2587,8 @@
       "id": 167,
       "name_ja": "イトマル",
       "name_hira": "いとまる",
+      "name_en": "Spinarak",
+      "name_en_katakana": "スピナラック",
       "types": [
         "bug",
         "poison"
@@ -2286,6 +2602,8 @@
       "id": 168,
       "name_ja": "アリアドス",
       "name_hira": "ありあどす",
+      "name_en": "Ariados",
+      "name_en_katakana": "アリアドス",
       "types": [
         "bug",
         "poison"
@@ -2299,6 +2617,8 @@
       "id": 169,
       "name_ja": "クロバット",
       "name_hira": "くろばっと",
+      "name_en": "Crobat",
+      "name_en_katakana": "クロバット",
       "types": [
         "poison",
         "flying"
@@ -2311,6 +2631,8 @@
       "id": 170,
       "name_ja": "チョンチー",
       "name_hira": "ちょんちー",
+      "name_en": "Chinchou",
+      "name_en_katakana": "チンチョウ",
       "types": [
         "water",
         "electric"
@@ -2324,6 +2646,8 @@
       "id": 171,
       "name_ja": "ランターン",
       "name_hira": "らんたーん",
+      "name_en": "Lanturn",
+      "name_en_katakana": "ランターン",
       "types": [
         "water",
         "electric"
@@ -2337,6 +2661,8 @@
       "id": 172,
       "name_ja": "ピチュー",
       "name_hira": "ぴちゅー",
+      "name_en": "Pichu",
+      "name_en_katakana": "ピーチュー",
       "types": [
         "electric"
       ],
@@ -2348,6 +2674,8 @@
       "id": 173,
       "name_ja": "ピィ",
       "name_hira": "ぴぃ",
+      "name_en": "Cleffa",
+      "name_en_katakana": "クレファ",
       "types": [
         "normal"
       ],
@@ -2359,6 +2687,8 @@
       "id": 174,
       "name_ja": "ププリン",
       "name_hira": "ぷぷりん",
+      "name_en": "Igglybuff",
+      "name_en_katakana": "イグリーバフ",
       "types": [
         "normal"
       ],
@@ -2370,6 +2700,8 @@
       "id": 175,
       "name_ja": "トゲピー",
       "name_hira": "とげぴー",
+      "name_en": "Togepi",
+      "name_en_katakana": "トーゲピー",
       "types": [
         "normal"
       ],
@@ -2382,6 +2714,8 @@
       "id": 176,
       "name_ja": "トゲチック",
       "name_hira": "とげちっく",
+      "name_en": "Togetic",
+      "name_en_katakana": "トーゲティック",
       "types": [
         "normal",
         "flying"
@@ -2395,6 +2729,8 @@
       "id": 177,
       "name_ja": "ネイティ",
       "name_hira": "ねいてぃ",
+      "name_en": "Natu",
+      "name_en_katakana": "ナトゥー",
       "types": [
         "psychic",
         "flying"
@@ -2408,6 +2744,8 @@
       "id": 178,
       "name_ja": "ネイティオ",
       "name_hira": "ねいてぃお",
+      "name_en": "Xatu",
+      "name_en_katakana": "ザトゥー",
       "types": [
         "psychic",
         "flying"
@@ -2421,6 +2759,8 @@
       "id": 179,
       "name_ja": "メリープ",
       "name_hira": "めりーぷ",
+      "name_en": "Mareep",
+      "name_en_katakana": "マリープ",
       "types": [
         "electric"
       ],
@@ -2432,6 +2772,8 @@
       "id": 180,
       "name_ja": "モココ",
       "name_hira": "もここ",
+      "name_en": "Flaaffy",
+      "name_en_katakana": "フレイフィー",
       "types": [
         "electric"
       ],
@@ -2443,6 +2785,8 @@
       "id": 181,
       "name_ja": "デンリュウ",
       "name_hira": "でんりゅう",
+      "name_en": "Ampharos",
+      "name_en_katakana": "アムファロス",
       "types": [
         "electric"
       ],
@@ -2454,6 +2798,8 @@
       "id": 182,
       "name_ja": "キレイハナ",
       "name_hira": "きれいはな",
+      "name_en": "Bellossom",
+      "name_en_katakana": "ベロッサム",
       "types": [
         "grass"
       ],
@@ -2465,6 +2811,8 @@
       "id": 183,
       "name_ja": "マリル",
       "name_hira": "まりる",
+      "name_en": "Marill",
+      "name_en_katakana": "マリル",
       "types": [
         "water"
       ],
@@ -2477,6 +2825,8 @@
       "id": 184,
       "name_ja": "マリルリ",
       "name_hira": "まりるり",
+      "name_en": "Azumarill",
+      "name_en_katakana": "アズマリル",
       "types": [
         "water"
       ],
@@ -2489,6 +2839,8 @@
       "id": 185,
       "name_ja": "ウソッキー",
       "name_hira": "うそっきー",
+      "name_en": "Sudowoodo",
+      "name_en_katakana": "スードーウードー",
       "types": [
         "rock"
       ],
@@ -2501,6 +2853,8 @@
       "id": 186,
       "name_ja": "ニョロトノ",
       "name_hira": "にょろとの",
+      "name_en": "Politoed",
+      "name_en_katakana": "ポリトード",
       "types": [
         "water"
       ],
@@ -2513,6 +2867,8 @@
       "id": 187,
       "name_ja": "ハネッコ",
       "name_hira": "はねっこ",
+      "name_en": "Hoppip",
+      "name_en_katakana": "ホッピップ",
       "types": [
         "grass",
         "flying"
@@ -2525,6 +2881,8 @@
       "id": 188,
       "name_ja": "ポポッコ",
       "name_hira": "ぽぽっこ",
+      "name_en": "Skiploom",
+      "name_en_katakana": "スキップルーム",
       "types": [
         "grass",
         "flying"
@@ -2537,6 +2895,8 @@
       "id": 189,
       "name_ja": "ワタッコ",
       "name_hira": "わたっこ",
+      "name_en": "Jumpluff",
+      "name_en_katakana": "ジャンプラフ",
       "types": [
         "grass",
         "flying"
@@ -2549,6 +2909,8 @@
       "id": 190,
       "name_ja": "エイパム",
       "name_hira": "えいぱむ",
+      "name_en": "Aipom",
+      "name_en_katakana": "エイポム",
       "types": [
         "normal"
       ],
@@ -2561,6 +2923,8 @@
       "id": 191,
       "name_ja": "ヒマナッツ",
       "name_hira": "ひまなっつ",
+      "name_en": "Sunkern",
+      "name_en_katakana": "サンカーン",
       "types": [
         "grass"
       ],
@@ -2572,6 +2936,8 @@
       "id": 192,
       "name_ja": "キマワリ",
       "name_hira": "きまわり",
+      "name_en": "Sunflora",
+      "name_en_katakana": "サンフローラ",
       "types": [
         "grass"
       ],
@@ -2583,6 +2949,8 @@
       "id": 193,
       "name_ja": "ヤンヤンマ",
       "name_hira": "やんやんま",
+      "name_en": "Yanma",
+      "name_en_katakana": "ヤンマ",
       "types": [
         "bug",
         "flying"
@@ -2596,6 +2964,8 @@
       "id": 194,
       "name_ja": "ウパー",
       "name_hira": "うぱー",
+      "name_en": "Wooper",
+      "name_en_katakana": "ウーパー",
       "types": [
         "water",
         "ground"
@@ -2609,6 +2979,8 @@
       "id": 195,
       "name_ja": "ヌオー",
       "name_hira": "ぬおー",
+      "name_en": "Quagsire",
+      "name_en_katakana": "クワグサイア",
       "types": [
         "water",
         "ground"
@@ -2622,6 +2994,8 @@
       "id": 196,
       "name_ja": "エーフィ",
       "name_hira": "えーふぃ",
+      "name_en": "Espeon",
+      "name_en_katakana": "エスピオン",
       "types": [
         "psychic"
       ],
@@ -2633,6 +3007,8 @@
       "id": 197,
       "name_ja": "ブラッキー",
       "name_hira": "ぶらっきー",
+      "name_en": "Umbreon",
+      "name_en_katakana": "アンブリオン",
       "types": [
         "dark"
       ],
@@ -2644,6 +3020,8 @@
       "id": 198,
       "name_ja": "ヤミカラス",
       "name_hira": "やみからす",
+      "name_en": "Murkrow",
+      "name_en_katakana": "マークロウ",
       "types": [
         "dark",
         "flying"
@@ -2656,6 +3034,8 @@
       "id": 199,
       "name_ja": "ヤドキング",
       "name_hira": "やどきんぐ",
+      "name_en": "Slowking",
+      "name_en_katakana": "スローキング",
       "types": [
         "water",
         "psychic"
@@ -2669,6 +3049,8 @@
       "id": 200,
       "name_ja": "ムウマ",
       "name_hira": "むうま",
+      "name_en": "Misdreavus",
+      "name_en_katakana": "ミスドリーヴァス",
       "types": [
         "ghost"
       ],
@@ -2680,6 +3062,8 @@
       "id": 201,
       "name_ja": "アンノーン",
       "name_hira": "あんのーん",
+      "name_en": "Unown",
+      "name_en_katakana": "アンノーン",
       "types": [
         "psychic"
       ],
@@ -2691,6 +3075,8 @@
       "id": 202,
       "name_ja": "ソーナンス",
       "name_hira": "そーなんす",
+      "name_en": "Wobbuffet",
+      "name_en_katakana": "ウォブファット",
       "types": [
         "psychic"
       ],
@@ -2702,6 +3088,8 @@
       "id": 203,
       "name_ja": "キリンリキ",
       "name_hira": "きりんりき",
+      "name_en": "Girafarig",
+      "name_en_katakana": "ジラファリグ",
       "types": [
         "normal",
         "psychic"
@@ -2715,6 +3103,8 @@
       "id": 204,
       "name_ja": "クヌギダマ",
       "name_hira": "くぬぎだま",
+      "name_en": "Pineco",
+      "name_en_katakana": "パインコー",
       "types": [
         "bug"
       ],
@@ -2726,6 +3116,8 @@
       "id": 205,
       "name_ja": "フォレトス",
       "name_hira": "ふぉれとす",
+      "name_en": "Forretress",
+      "name_en_katakana": "フォーリトレス",
       "types": [
         "bug",
         "steel"
@@ -2738,6 +3130,8 @@
       "id": 206,
       "name_ja": "ノコッチ",
       "name_hira": "のこっち",
+      "name_en": "Dunsparce",
+      "name_en_katakana": "ダンスパース",
       "types": [
         "normal"
       ],
@@ -2750,6 +3144,8 @@
       "id": 207,
       "name_ja": "グライガー",
       "name_hira": "ぐらいがー",
+      "name_en": "Gligar",
+      "name_en_katakana": "グライガー",
       "types": [
         "ground",
         "flying"
@@ -2763,6 +3159,8 @@
       "id": 208,
       "name_ja": "ハガネール",
       "name_hira": "はがねーる",
+      "name_en": "Steelix",
+      "name_en_katakana": "スティーリックス",
       "types": [
         "steel",
         "ground"
@@ -2776,6 +3174,8 @@
       "id": 209,
       "name_ja": "ブルー",
       "name_hira": "ぶるー",
+      "name_en": "Snubbull",
+      "name_en_katakana": "スナブル",
       "types": [
         "normal"
       ],
@@ -2788,6 +3188,8 @@
       "id": 210,
       "name_ja": "グランブル",
       "name_hira": "ぐらんぶる",
+      "name_en": "Granbull",
+      "name_en_katakana": "グランブル",
       "types": [
         "normal"
       ],
@@ -2799,6 +3201,8 @@
       "id": 211,
       "name_ja": "ハリーセン",
       "name_hira": "はりーせん",
+      "name_en": "Qwilfish",
+      "name_en_katakana": "クウィルフィッシュ",
       "types": [
         "water",
         "poison"
@@ -2812,6 +3216,8 @@
       "id": 212,
       "name_ja": "ハッサム",
       "name_hira": "はっさむ",
+      "name_en": "Scizor",
+      "name_en_katakana": "サイザー",
       "types": [
         "bug",
         "steel"
@@ -2824,6 +3230,8 @@
       "id": 213,
       "name_ja": "ツボツボ",
       "name_hira": "つぼつぼ",
+      "name_en": "Shuckle",
+      "name_en_katakana": "シャックル",
       "types": [
         "bug",
         "rock"
@@ -2836,6 +3244,8 @@
       "id": 214,
       "name_ja": "ヘラクロス",
       "name_hira": "へらくろす",
+      "name_en": "Heracross",
+      "name_en_katakana": "ヘラクロス",
       "types": [
         "bug",
         "fighting"
@@ -2849,6 +3259,8 @@
       "id": 215,
       "name_ja": "ニューラ",
       "name_hira": "にゅーら",
+      "name_en": "Sneasel",
+      "name_en_katakana": "スニーザル",
       "types": [
         "dark",
         "ice"
@@ -2862,6 +3274,8 @@
       "id": 216,
       "name_ja": "ヒメグマ",
       "name_hira": "ひめぐま",
+      "name_en": "Teddiursa",
+      "name_en_katakana": "テディアーサ",
       "types": [
         "normal"
       ],
@@ -2873,6 +3287,8 @@
       "id": 217,
       "name_ja": "リングマ",
       "name_hira": "りんぐま",
+      "name_en": "Ursaring",
+      "name_en_katakana": "アーサリング",
       "types": [
         "normal"
       ],
@@ -2884,6 +3300,8 @@
       "id": 218,
       "name_ja": "マグマッグ",
       "name_hira": "まぐまっぐ",
+      "name_en": "Slugma",
+      "name_en_katakana": "スラグマ",
       "types": [
         "fire"
       ],
@@ -2896,6 +3314,8 @@
       "id": 219,
       "name_ja": "マグカルゴ",
       "name_hira": "まぐかるご",
+      "name_en": "Magcargo",
+      "name_en_katakana": "マグカーゴ",
       "types": [
         "fire",
         "rock"
@@ -2909,6 +3329,8 @@
       "id": 220,
       "name_ja": "ウリムー",
       "name_hira": "うりむー",
+      "name_en": "Swinub",
+      "name_en_katakana": "スワイナブ",
       "types": [
         "ice",
         "ground"
@@ -2921,6 +3343,8 @@
       "id": 221,
       "name_ja": "イノムー",
       "name_hira": "いのむー",
+      "name_en": "Piloswine",
+      "name_en_katakana": "パイロスワイン",
       "types": [
         "ice",
         "ground"
@@ -2933,6 +3357,8 @@
       "id": 222,
       "name_ja": "サニーゴ",
       "name_hira": "さにーご",
+      "name_en": "Corsola",
+      "name_en_katakana": "コーソラ",
       "types": [
         "water",
         "rock"
@@ -2946,6 +3372,8 @@
       "id": 223,
       "name_ja": "テッポウオ",
       "name_hira": "てっぽうお",
+      "name_en": "Remoraid",
+      "name_en_katakana": "レモレイド",
       "types": [
         "water"
       ],
@@ -2957,6 +3385,8 @@
       "id": 224,
       "name_ja": "オクタン",
       "name_hira": "おくたん",
+      "name_en": "Octillery",
+      "name_en_katakana": "オクティラリー",
       "types": [
         "water"
       ],
@@ -2968,6 +3398,8 @@
       "id": 225,
       "name_ja": "デリバード",
       "name_hira": "でりばーど",
+      "name_en": "Delibird",
+      "name_en_katakana": "デリバード",
       "types": [
         "ice",
         "flying"
@@ -2981,6 +3413,8 @@
       "id": 226,
       "name_ja": "マンタイン",
       "name_hira": "まんたいん",
+      "name_en": "Mantine",
+      "name_en_katakana": "マンティーン",
       "types": [
         "water",
         "flying"
@@ -2994,6 +3428,8 @@
       "id": 227,
       "name_ja": "エアームド",
       "name_hira": "えあーむど",
+      "name_en": "Skarmory",
+      "name_en_katakana": "スカーモリー",
       "types": [
         "steel",
         "flying"
@@ -3007,6 +3443,8 @@
       "id": 228,
       "name_ja": "デルビル",
       "name_hira": "でるびる",
+      "name_en": "Houndour",
+      "name_en_katakana": "ハウンダー",
       "types": [
         "dark",
         "fire"
@@ -3020,6 +3458,8 @@
       "id": 229,
       "name_ja": "ヘルガー",
       "name_hira": "へるがー",
+      "name_en": "Houndoom",
+      "name_en_katakana": "ハウンドゥーム",
       "types": [
         "dark",
         "fire"
@@ -3033,6 +3473,8 @@
       "id": 230,
       "name_ja": "キングドラ",
       "name_hira": "きんぐどら",
+      "name_en": "Kingdra",
+      "name_en_katakana": "キングドラ",
       "types": [
         "water",
         "dragon"
@@ -3045,6 +3487,8 @@
       "id": 231,
       "name_ja": "ゴマゾウ",
       "name_hira": "ごまぞう",
+      "name_en": "Phanpy",
+      "name_en_katakana": "ファンピー",
       "types": [
         "ground"
       ],
@@ -3056,6 +3500,8 @@
       "id": 232,
       "name_ja": "ドンファン",
       "name_hira": "どんふぁん",
+      "name_en": "Donphan",
+      "name_en_katakana": "ドンファン",
       "types": [
         "ground"
       ],
@@ -3067,6 +3513,8 @@
       "id": 233,
       "name_ja": "ポリゴン２",
       "name_hira": "ぽりごん２",
+      "name_en": "Porygon2",
+      "name_en_katakana": "ポリゴンツー",
       "types": [
         "normal"
       ],
@@ -3078,6 +3526,8 @@
       "id": 234,
       "name_ja": "オドシシ",
       "name_hira": "おどしし",
+      "name_en": "Stantler",
+      "name_en_katakana": "スタントラー",
       "types": [
         "normal"
       ],
@@ -3089,6 +3539,8 @@
       "id": 235,
       "name_ja": "ドーブル",
       "name_hira": "どーぶる",
+      "name_en": "Smeargle",
+      "name_en_katakana": "スミアグル",
       "types": [
         "normal"
       ],
@@ -3100,6 +3552,8 @@
       "id": 236,
       "name_ja": "バルキー",
       "name_hira": "ばるきー",
+      "name_en": "Tyrogue",
+      "name_en_katakana": "タイローグ",
       "types": [
         "fighting"
       ],
@@ -3111,6 +3565,8 @@
       "id": 237,
       "name_ja": "カポエラー",
       "name_hira": "かぽえらー",
+      "name_en": "Hitmontop",
+      "name_en_katakana": "ヒットモントップ",
       "types": [
         "fighting"
       ],
@@ -3122,6 +3578,8 @@
       "id": 238,
       "name_ja": "ムチュール",
       "name_hira": "むちゅーる",
+      "name_en": "Smoochum",
+      "name_en_katakana": "スムーチャム",
       "types": [
         "ice",
         "psychic"
@@ -3134,6 +3592,8 @@
       "id": 239,
       "name_ja": "エレキッド",
       "name_hira": "えれきっど",
+      "name_en": "Elekid",
+      "name_en_katakana": "エレキッド",
       "types": [
         "electric"
       ],
@@ -3145,6 +3605,8 @@
       "id": 240,
       "name_ja": "ブビィ",
       "name_hira": "ぶびぃ",
+      "name_en": "Magby",
+      "name_en_katakana": "マグビー",
       "types": [
         "fire"
       ],
@@ -3156,6 +3618,8 @@
       "id": 241,
       "name_ja": "ミルタンク",
       "name_hira": "みるたんく",
+      "name_en": "Miltank",
+      "name_en_katakana": "ミルタンク",
       "types": [
         "normal"
       ],
@@ -3167,6 +3631,8 @@
       "id": 242,
       "name_ja": "ハピナス",
       "name_hira": "はぴなす",
+      "name_en": "Blissey",
+      "name_en_katakana": "ブリスィー",
       "types": [
         "normal"
       ],
@@ -3179,6 +3645,8 @@
       "id": 243,
       "name_ja": "ライコウ",
       "name_hira": "らいこう",
+      "name_en": "Raikou",
+      "name_en_katakana": "ライクー",
       "types": [
         "electric"
       ],
@@ -3190,6 +3658,8 @@
       "id": 244,
       "name_ja": "エンテイ",
       "name_hira": "えんてい",
+      "name_en": "Entei",
+      "name_en_katakana": "エンテイ",
       "types": [
         "fire"
       ],
@@ -3201,6 +3671,8 @@
       "id": 245,
       "name_ja": "スイクン",
       "name_hira": "すいくん",
+      "name_en": "Suicune",
+      "name_en_katakana": "スウィークーン",
       "types": [
         "water"
       ],
@@ -3212,6 +3684,8 @@
       "id": 246,
       "name_ja": "ヨーギラス",
       "name_hira": "よーぎらす",
+      "name_en": "Larvitar",
+      "name_en_katakana": "ラルヴィター",
       "types": [
         "rock",
         "ground"
@@ -3224,6 +3698,8 @@
       "id": 247,
       "name_ja": "サナギラス",
       "name_hira": "さなぎらす",
+      "name_en": "Pupitar",
+      "name_en_katakana": "ピューピター",
       "types": [
         "rock",
         "ground"
@@ -3236,6 +3712,8 @@
       "id": 248,
       "name_ja": "バンギラス",
       "name_hira": "ばんぎらす",
+      "name_en": "Tyranitar",
+      "name_en_katakana": "タイラニター",
       "types": [
         "rock",
         "dark"
@@ -3248,6 +3726,8 @@
       "id": 249,
       "name_ja": "ルギア",
       "name_hira": "るぎあ",
+      "name_en": "Lugia",
+      "name_en_katakana": "ルージア",
       "types": [
         "psychic",
         "flying"
@@ -3260,6 +3740,8 @@
       "id": 250,
       "name_ja": "ホウオウ",
       "name_hira": "ほうおう",
+      "name_en": "Ho-Oh",
+      "name_en_katakana": "ホーオー",
       "types": [
         "fire",
         "flying"
@@ -3272,12 +3754,69 @@
       "id": 251,
       "name_ja": "セレビィ",
       "name_hira": "せれびぃ",
+      "name_en": "Celebi",
+      "name_en_katakana": "セレビー",
       "types": [
         "psychic",
         "grass"
       ],
       "abilities": [
         "natural-cure"
+      ]
+    },
+    {
+      "id": 380,
+      "name_ja": "ラティアス",
+      "name_hira": "らてぃあす",
+      "name_en": "Latias",
+      "name_en_katakana": "ラティアス",
+      "types": [
+        "dragon",
+        "psychic"
+      ],
+      "abilities": [
+        "levitate"
+      ]
+    },
+    {
+      "id": 381,
+      "name_ja": "ラティオス",
+      "name_hira": "らてぃおす",
+      "name_en": "Latios",
+      "name_en_katakana": "ラティオス",
+      "types": [
+        "dragon",
+        "psychic"
+      ],
+      "abilities": [
+        "levitate"
+      ]
+    },
+    {
+      "id": 385,
+      "name_ja": "ジラーチ",
+      "name_hira": "じらーち",
+      "name_en": "Jirachi",
+      "name_en_katakana": "ジラチー",
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "abilities": [
+        "serene-grace"
+      ]
+    },
+    {
+      "id": 386,
+      "name_ja": "デオキシス",
+      "name_hira": "でおきしす",
+      "name_en": "Deoxys",
+      "name_en_katakana": "ディオクシス",
+      "types": [
+        "psychic"
+      ],
+      "abilities": [
+        "pressure"
       ]
     }
   ],
